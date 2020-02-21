@@ -5,6 +5,7 @@ Visual Studio 2017 dark but colorful settings. Distinguishes member functions, s
 
 ![](https://github.com/zdenyhraz/VSColors/blob/master/pics/colors2.PNG?raw=true "colors2")
 
+## Setup
 Step 1) Download Color Theme Editor for Visual Studio 2017 at 
 https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor
 
