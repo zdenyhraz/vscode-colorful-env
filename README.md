@@ -4,3 +4,10 @@ Visual Studio 2017 dark but colorful settings. Distinguishes member functions, s
 ![](https://github.com/zdenyhraz/VSColors/blob/master/pics/colors1.PNG?raw=true "colors1")
 
 ![](https://github.com/zdenyhraz/VSColors/blob/master/pics/colors2.PNG?raw=true "colors2")
+
+Step 1) Download Color Theme Editor for Visual Studio 2017 at 
+https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor
+
+Step 2) VisualStudio 2017 > Tools > Customize Colors > Import Theme > select the theme
+
+Step 3) Productivity++
