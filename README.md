@@ -2,7 +2,9 @@
 Visual Studio & Visual Studio Code dark but colorful settings. Distinguishes member functions, static functions, global functions, member variables, static variables, global variables, macros, parameters, etc. Examples of 2020 version below:
 
 ## Setup - Visual Studio Code
-Step 1) Copy the "editor.tokenColorCustomizations" field from the settings.json file to your .vscode/settings.json file
+Step 1) Copy the settings from the settings.json file to your .vscode/settings.json file
+
+Step 2) Install the Clang-Format extension
 
 ## Setup - Visual Studio
 Step 1) Download Color Theme Editor for Visual Studio 2017 at 
