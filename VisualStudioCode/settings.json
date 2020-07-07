@@ -1,15 +1,31 @@
 {
-    "editor.tokenColorCustomizations": 
-    {
-        "textMateRules": 
-        [
-                {"scope": "entity.name.type", "settings": {"foreground": "#00FFA1"}},
-                {"scope": "entity.name.function.member", "settings": {"foreground": "#FFD000"}},
-                {"scope": "entity.name.function", "settings": {"foreground": "#FFD000"}},
-                {"scope": "variable.other.local", "settings": {"foreground": "#ffffffcc"}},
-                {"scope": "variable.other.property", "settings": {"foreground": "#BE00FF"}},
-        ]
-    }
+  "editor.tokenColorCustomizations": 
+  {
+      "textMateRules": 
+      [
+              {"scope": "entity.name.type", "settings": {"foreground": "#00ffc8"}},
+              {"scope": "entity.name.namespace", "settings": {"foreground": "#00ffc8"}},
+              
+              {"scope": "entity.name.function.member", "settings": {"foreground": "#ffd000"}},
+              {"scope": "entity.name.function.operator.member", "settings": {"foreground": "#ffd000"}},
+
+              {"scope": "entity.name.function", "settings": {"foreground": "#ff9d00"}},
+              {"scope": "entity.name.function.member.static", "settings": {"foreground": "#ff9d00"}},
+              {"scope": "variable.other.property.static", "settings": {"foreground": "#ff9d00"}},
+              {"scope": "variable.other.global", "settings": {"foreground": "#ff9d00"}},
+              {"scope": "entity.name.function.operator", "settings": {"foreground": "#ff9d00"}},
+              
+              {"scope": "entity.name.label", "settings": {"foreground": "#ffffff93"}},
+              {"scope": "entity.name.function.preprocessor", "settings": {"foreground": "#ffffff93"}},
+              {"scope": "variable.parameter", "settings": {"foreground": "#ffffff93"}},
+
+              {"scope": "variable.other.enummember", "settings": {"foreground": "#ff0000d3"}},
+
+              {"scope": "variable.other.local", "settings": {"foreground": "#ffffffcc"}},
+
+              {"scope": "variable.other.property", "settings": {"foreground": "#c548ff"}}
+      ]
+  }
 }
 
 
