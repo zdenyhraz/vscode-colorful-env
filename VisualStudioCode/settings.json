@@ -1,0 +1,17 @@
+{
+    "editor.tokenColorCustomizations": 
+    {
+        "textMateRules": 
+        [
+                {"scope": "entity.name.type", "settings": {"foreground": "#00FFA1"}},
+                {"scope": "entity.name.function.member", "settings": {"foreground": "#FFD000"}},
+                {"scope": "entity.name.function", "settings": {"foreground": "#FFD000"}},
+                {"scope": "variable.other.local", "settings": {"foreground": "#ffffffcc"}},
+                {"scope": "variable.other.property", "settings": {"foreground": "#BE00FF"}},
+        ]
+    }
+}
+
+
+
+
