@@ -1,0 +1,17 @@
+﻿---
+AccessModifierOffset: '0'
+AlignAfterOpenBracket: DontAlign
+BreakBeforeBraces: Allman
+BreakConstructorInitializersBeforeComma: 'false'
+ColumnLimit: '100'
+ConstructorInitializerAllOnOneLineOrOnePerLine: 'true'
+ConstructorInitializerIndentWidth: '0'
+IndentWidth: '2'
+Language: Cpp
+SpacesInParentheses: 'false'
+SpacesInSquareBrackets: 'false'
+Standard: Cpp03
+TabWidth: '2'
+UseTab: Never
+
+...
