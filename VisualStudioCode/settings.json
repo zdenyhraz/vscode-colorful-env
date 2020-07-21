@@ -31,7 +31,8 @@
           "entity.name.function.member.static",
           "variable.other.property.static",
           "variable.other.global",
-          "entity.name.function.operator"
+          "entity.name.function.operator",
+          "constant.numeric"
         ],
         "settings": {
           "foreground": "#ff6600"
@@ -81,12 +82,6 @@
         ],
         "settings": {
           "foreground": "#569CD6"
-        }
-      },
-      {
-        "scope": "constant.numeric",
-        "settings": {
-          "foreground": "#ff6600"
         }
       }
     ]
