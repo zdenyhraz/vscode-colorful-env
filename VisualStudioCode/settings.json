@@ -1,79 +1,56 @@
 {
-  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
+  "C_Cpp.enhancedColorization": "Enabled",
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": "entity.name.type",
+        "scope": 
+        [
+          "entity.name.type",
+          "entity.name.namespace"
+        ],
         "settings": {
-          "foreground": "#00ffc8"
+          "foreground": "#00ffc8c7"
         }
       },
       {
-        "scope": "entity.name.namespace",
+        "scope": 
+        [
+          "entity.name.function.member",
+          "entity.name.function.operator.member"
+        ],
         "settings": {
-          "foreground": "#00ffc8"
+          "foreground": "#ffae00"
         }
       },
       {
-        "scope": "entity.name.function.member",
+        "scope": 
+        [
+          "entity.name.function",
+          "entity.name.function.member.static",
+          "variable.other.property.static",
+          "variable.other.global",
+          "entity.name.function.operator"
+        ],
         "settings": {
-          "foreground": "#ffd000"
+          "foreground": "#ff6600"
         }
       },
       {
-        "scope": "entity.name.function.operator.member",
+        "scope": 
+        [
+          "entity.name.function.preprocessor",
+          "entity.name.label"
+        ],
         "settings": {
-          "foreground": "#ffd000"
-        }
-      },
-      {
-        "scope": "entity.name.function",
-        "settings": {
-          "foreground": "#ff9d00"
-        }
-      },
-      {
-        "scope": "entity.name.function.member.static",
-        "settings": {
-          "foreground": "#ff9d00"
-        }
-      },
-      {
-        "scope": "variable.other.property.static",
-        "settings": {
-          "foreground": "#ff9d00"
-        }
-      },
-      {
-        "scope": "variable.other.global",
-        "settings": {
-          "foreground": "#ff9d00"
-        }
-      },
-      {
-        "scope": "entity.name.function.operator",
-        "settings": {
-          "foreground": "#ff9d00"
-        }
-      },
-      {
-        "scope": "entity.name.label",
-        "settings": {
-          "foreground": "#ffffff93"
-        }
-      },
-      {
-        "scope": "entity.name.function.preprocessor",
-        "settings": {
-          "foreground": "#ffffff93"
+          "foreground": "#fc95eb"
         }
       },
       {
         "scope": "variable.parameter",
         "settings": {
-          "foreground": "#ffffff93"
+          "foreground": "#ffffff60"
         }
       },
       {
@@ -85,13 +62,31 @@
       {
         "scope": "variable.other.local",
         "settings": {
-          "foreground": "#ffffffcc"
+          "foreground": "#D4D4D4"
         }
       },
       {
         "scope": "variable.other.property",
         "settings": {
           "foreground": "#c548ff"
+        }
+      },
+      {
+        "scope": 
+        [
+          "keyword.control",
+          "keyword.operator",
+          "storage.type",
+          "constant.language"
+        ],
+        "settings": {
+          "foreground": "#569CD6"
+        }
+      },
+      {
+        "scope": "constant.numeric",
+        "settings": {
+          "foreground": "#ff6600"
         }
       }
     ]
