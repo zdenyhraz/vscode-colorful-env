@@ -4,7 +4,9 @@ Visual Studio & Visual Studio Code dark but colorful settings. Distinguishes mem
 ## Setup - Visual Studio Code
 Step 1) Copy the settings from the settings.json file to your .vscode/settings.json file
 
-Step 2) Install the Clang-Format extension
+Step 2) Ctrl-Shift-P -> Inspect Editor Tokens and Scopes - check name of setting
+
+Step 3) (optional) Install the Clang-Format extension
 
 ## Setup - Visual Studio
 Step 1) Download Color Theme Editor for Visual Studio 2017 at 
