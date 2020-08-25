@@ -18,7 +18,7 @@
           "entity.name.function.member",
           "entity.name.function.operator.member",
           "punctuation.separator.dot-access",
-          "punctuation.separator.pointer-access"
+          "punctuation.separator.pointer-access",
         ],
         "settings": {
           "foreground": "#ffae00"
@@ -58,6 +58,9 @@
           "keyword.operator.logical",
           "keyword.operator.ternary",
           "keyword.control.throw",
+          "keyword.operator.new",
+          "keyword.operator.delete",
+          "keyword.operator.delete.array",
         ],
         "settings": {
           "foreground": "#ff2600"
@@ -99,6 +102,7 @@
           "keyword.control",
           "keyword.operator.assignment",
           "keyword.operator.increment",
+          "keyword.operator.comparison",
           "keyword.operator",
           "storage.type",
           "constant.language",
@@ -106,7 +110,6 @@
           "storage.modifier.reference",
           "punctuation.section.angle-brackets.begin.template.call",
           "punctuation.section.angle-brackets.end.template.call",
-          "keyword.operator.comparison",
         ],
         "settings": {
           "foreground": "#569CD6"
