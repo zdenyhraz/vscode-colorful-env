@@ -35,7 +35,7 @@
           "keyword.other.unit"
         ],
         "settings": {
-          "foreground": "#ff6600"
+          "foreground": "#ff7300"
         }
       },
       {
@@ -190,5 +190,6 @@
     "*.ipp": "cpp",
     "ciso646": "cpp"
   },
-  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "gitlab.instanceUrl": "https://gitlab.int.phonexia.com/"
 }
