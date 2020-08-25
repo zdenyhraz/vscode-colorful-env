@@ -6,7 +6,7 @@ Step 1) Copy the settings from the settings.json file to your .vscode/settings.j
 
 Step 2) Productivity++
 
-Step 3) (optional ) To add new color rules: Hover over the text token you wish to customize > Ctrl-Shift-P > Inspect Editor Tokens and Scopes > check name of setting > add it to your settings.json file
+Step 3) (optional) To add new color rules > hover over the text token you wish to customize > Ctrl-Shift-P > Inspect Editor Tokens and Scopes > check name of setting > add it to your settings.json file
 
 Step 4) (optional) Install the Clang-Format extension
 
