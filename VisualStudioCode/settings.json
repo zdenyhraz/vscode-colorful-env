@@ -31,11 +31,18 @@
           "entity.name.function.member.static",
           "variable.other.property.static",
           "variable.other.global",
-          "constant.numeric",
-          "keyword.other.unit"
         ],
         "settings": {
           "foreground": "#ff7300"
+        }
+      },
+      {
+        "scope": [
+          "constant.numeric",
+          "keyword.other.unit",
+        ],
+        "settings": {
+          "foreground": "#ff5100"
         }
       },
       {
