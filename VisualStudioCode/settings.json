@@ -41,10 +41,9 @@
       {
         "scope": [
           "entity.name.function.preprocessor",
-          "entity.name.label"
         ],
         "settings": {
-          "foreground": "#fc95eb"
+          "foreground": "#C586C0"
         }
       },
       {
@@ -56,9 +55,9 @@
       {
         "scope": [
           "variable.other.enummember",
-          "keyword.operator.comparison",
           "keyword.operator.logical",
           "keyword.operator.ternary",
+          "keyword.control.throw",
         ],
         "settings": {
           "foreground": "#ff2600"
@@ -66,14 +65,25 @@
       },
       {
         "scope": [
-          "storage.type.class.doxygen"
+          "storage.type.class.doxygen",
         ],
         "settings": {
           "foreground": "#00ec0c"
         }
       },
       {
-        "scope": "variable.other.local",
+        "scope": [
+          "keyword.control.try",
+          "keyword.control.catch",
+        ],
+        "settings": {
+          "foreground": "#16b900"
+        }
+      },
+      {
+        "scope": [
+          "variable.other.local",
+        ],
         "settings": {
           "foreground": "#D4D4D4"
         }
@@ -87,11 +97,16 @@
       {
         "scope": [
           "keyword.control",
-          "keyword.operator",
           "keyword.operator.assignment",
           "keyword.operator.increment",
+          "keyword.operator",
           "storage.type",
-          "constant.language"
+          "constant.language",
+          "storage.modifier.pointer",
+          "storage.modifier.reference",
+          "punctuation.section.angle-brackets.begin.template.call",
+          "punctuation.section.angle-brackets.end.template.call",
+          "keyword.operator.comparison",
         ],
         "settings": {
           "foreground": "#569CD6"
