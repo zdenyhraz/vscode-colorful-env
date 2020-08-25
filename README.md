@@ -4,9 +4,13 @@ Visual Studio & Visual Studio Code dark but colorful settings. Distinguishes mem
 ## Setup - Visual Studio Code
 Step 1) Copy the settings from the settings.json file to your .vscode/settings.json file
 
-Step 2) Ctrl-Shift-P -> Inspect Editor Tokens and Scopes - check name of setting
+Step 2) Productivity++
 
-Step 3) (optional) Install the Clang-Format extension
+Step 3) (optional ) To add new color rules: Hover over the text token you wish to customize > Ctrl-Shift-P > Inspect Editor Tokens and Scopes > check name of setting > add it to your settings.json file
+
+Step 4) (optional) Install the Clang-Format extension
+
+Step 5) (optional) Copy the clang.format into your repository
 
 ## Setup - Visual Studio
 Step 1) Download Color Theme Editor for Visual Studio 2017 at 
