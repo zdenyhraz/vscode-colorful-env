@@ -1,17 +1,19 @@
 ﻿---
-AccessModifierOffset: '0'
+AccessModifierOffset: '-2'
 AlignAfterOpenBracket: DontAlign
 BreakBeforeBraces: Allman
 BreakConstructorInitializersBeforeComma: 'false'
-ColumnLimit: '100'
+ColumnLimit: '120'
 ConstructorInitializerAllOnOneLineOrOnePerLine: 'true'
 ConstructorInitializerIndentWidth: '0'
 IndentWidth: '2'
 Language: Cpp
 SpacesInParentheses: 'false'
 SpacesInSquareBrackets: 'false'
-Standard: Cpp03
+Standard: Cpp11
 TabWidth: '2'
 UseTab: Never
+FixNamespaceComments: 'false'
+IndentPPDirectives: 'AfterHash'
 
 ...
