@@ -1,0 +1,1 @@
+--style=allman --indent=tab --align-pointer=name --align-reference=name --attach-namespaces --indent-preproc-block --indent-preproc-define --indent-col1-comments --pad-oper --pad-comma --pad-header --close-templates --pad-paren-in --keep-one-line-blocks --indent-switches --mode=c
