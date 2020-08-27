@@ -20,8 +20,9 @@ Step 2) VisualStudio > Tools > Customize Colors > Import Theme > select the them
 
 Step 3) Productivity++
 
-Step 4) (optional) Astyle settings:
---style=allman --indent=tab --align-pointer=name --align-reference=name --attach-namespaces --indent-preproc-block --indent-preproc-define --indent-col1-comments --pad-oper --pad-comma --pad-header --close-templates --pad-paren-in --keep-one-line-blocks --indent-switches --mode=c
+Step 4) (optional) Install the AStyle Extension
+
+Step 5) (optional) Copy the AStyle Extension settings from Astyle-Settings.txt
 
 ## Example result - Visual Studio Code
 ![](https://github.com/zdenyhraz/VSColors/blob/master/pics/colors1.PNG?raw=true "colors1")
