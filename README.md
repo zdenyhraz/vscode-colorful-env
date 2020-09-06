@@ -10,7 +10,7 @@ Step 3) (optional) To add new color rules > hover over the text token you wish t
 
 Step 4) (optional) Install the Clang-Format extension
 
-Step 5) (optional) Copy the clang.format into your repository
+Step 5) (optional) Copy the .clang-format into your repository
 
 ## Setup - Visual Studio
 Step 1) Download Color Theme Editor for Visual Studio 2017 at 
@@ -20,9 +20,9 @@ Step 2) VisualStudio > Tools > Customize Colors > Import Theme > select the them
 
 Step 3) Productivity++
 
-Step 4) (optional) Install the AStyle Extension
+Step 4) (optional) Install the Clang-Format extension
 
-Step 5) (optional) Copy the AStyle Extension settings from Astyle-Settings.txt
+Step 5) (optional) Copy the .clang-format into your repository
 
 ## Example result - Visual Studio Code
 ![](https://github.com/zdenyhraz/VSColors/blob/master/pics/colors1.PNG?raw=true "colors1")
