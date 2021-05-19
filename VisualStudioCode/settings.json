@@ -3,6 +3,9 @@
     "editor.formatOnSave": true,
     "C_Cpp.enhancedColorization": "Enabled",
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "editor.fontFamily": "Cascadia Code",
+    "editor.fontSize": 15,
+    "editor.fontLigatures": true,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
