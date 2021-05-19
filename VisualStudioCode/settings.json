@@ -7,7 +7,7 @@
     "editor.formatOnType": true,
     "editor.formatOnSave": true,
     "editor.fontFamily": "Cascadia Code",
-    "editor.fontSize": 15,
+    "editor.fontSize": 16,
     "editor.fontLigatures": true,
     "editor.tabSize": 2,
     "editor.tokenColorCustomizations": {
