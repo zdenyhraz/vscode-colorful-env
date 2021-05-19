@@ -1,8 +1,9 @@
 {
-    "editor.formatOnType": true,
-    "editor.formatOnSave": true,
     "C_Cpp.enhancedColorization": "Enabled",
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
     "editor.fontFamily": "Cascadia Code",
     "editor.fontSize": 15,
     "editor.fontLigatures": true,
