@@ -2,6 +2,7 @@
     "C_Cpp.enhancedColorization": "Enabled",
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "workbench.iconTheme": "vscode-icons",
+    "git.enableSmartCommit": true,
     "editor.formatOnType": true,
     "editor.formatOnSave": true,
     "editor.fontFamily": "Cascadia Code",
@@ -61,7 +62,8 @@
             {
                 "scope": "variable.parameter",
                 "settings": {
-                    "foreground": "#ffffff60"
+                    "foreground": "#ffffff60",
+                    "fontStyle": "italic"
                 }
             },
             {
@@ -76,6 +78,14 @@
                 ],
                 "settings": {
                     "foreground": "#ff2600"
+                }
+            },
+            {
+                "scope": [
+                    "comment",
+                ],
+                "settings": {
+                    "fontStyle": "italic"
                 }
             },
             {
@@ -129,5 +139,4 @@
             }
         ]
     },
-    "git.enableSmartCommit": true,
 }
