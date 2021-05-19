@@ -1,202 +1,128 @@
 {
-  "editor.formatOnType": true,
-  "editor.formatOnSave": true,
-  "C_Cpp.enhancedColorization": "Enabled",
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          "entity.name.type",
-          "entity.name.namespace"
-        ],
-        "settings": {
-          "foreground": "#00ffc8c7"
-        }
-      },
-      {
-        "scope": [
-          "entity.name.function.member",
-          "entity.name.function.operator.member",
-          "punctuation.separator.dot-access",
-          "punctuation.separator.pointer-access",
-        ],
-        "settings": {
-          "foreground": "#ffae00"
-        }
-      },
-      {
-        "scope": [
-          "entity.name.function",
-          "entity.name.function.operator",
-          "entity.name.function.member.static",
-          "variable.other.property.static",
-          "variable.other.global",
-        ],
-        "settings": {
-          "foreground": "#ff7300"
-        }
-      },
-      {
-        "scope": [
-          "constant.numeric",
-          "keyword.other.unit",
-        ],
-        "settings": {
-          "foreground": "#ff5100"
-        }
-      },
-      {
-        "scope": [
-          "entity.name.function.preprocessor",
-        ],
-        "settings": {
-          "foreground": "#C586C0"
-        }
-      },
-      {
-        "scope": "variable.parameter",
-        "settings": {
-          "foreground": "#ffffff60"
-        }
-      },
-      {
-        "scope": [
-          "variable.other.enummember",
-          "keyword.operator.logical",
-          "keyword.operator.ternary",
-          "keyword.control.throw",
-          "keyword.operator.new",
-          "keyword.operator.delete",
-          "keyword.operator.delete.array",
-        ],
-        "settings": {
-          "foreground": "#ff2600"
-        }
-      },
-      {
-        "scope": [
-          "storage.type.class.doxygen",
-        ],
-        "settings": {
-          "foreground": "#00ec0c"
-        }
-      },
-      {
-        "scope": [
-          "keyword.control.try",
-          "keyword.control.catch",
-        ],
-        "settings": {
-          "foreground": "#16b900"
-        }
-      },
-      {
-        "scope": [
-          "variable.other.local",
-        ],
-        "settings": {
-          "foreground": "#D4D4D4"
-        }
-      },
-      {
-        "scope": "variable.other.property",
-        "settings": {
-          "foreground": "#c548ff"
-        }
-      },
-      {
-        "scope": [
-          "keyword.control",
-          "keyword.operator.assignment",
-          "keyword.operator.increment",
-          "keyword.operator.comparison",
-          "keyword.operator",
-          "storage.type",
-          "constant.language",
-          "storage.modifier.pointer",
-          "storage.modifier.reference",
-          "punctuation.section.angle-brackets.begin.template.call",
-          "punctuation.section.angle-brackets.end.template.call",
-        ],
-        "settings": {
-          "foreground": "#569CD6"
-        }
-      }
-    ]
-  },
-  "files.associations": {
-    "vector": "cpp",
-    "new": "cpp",
-    "mutex": "cpp",
-    "*.tcc": "cpp",
-    "cctype": "cpp",
-    "clocale": "cpp",
-    "cmath": "cpp",
-    "csignal": "cpp",
-    "cstdarg": "cpp",
-    "cstddef": "cpp",
-    "cstdio": "cpp",
-    "cstdlib": "cpp",
-    "cstring": "cpp",
-    "ctime": "cpp",
-    "cwchar": "cpp",
-    "cwctype": "cpp",
-    "array": "cpp",
-    "atomic": "cpp",
-    "strstream": "cpp",
-    "bit": "cpp",
-    "bitset": "cpp",
-    "chrono": "cpp",
-    "codecvt": "cpp",
-    "complex": "cpp",
-    "condition_variable": "cpp",
-    "cstdint": "cpp",
-    "deque": "cpp",
-    "forward_list": "cpp",
-    "list": "cpp",
-    "map": "cpp",
-    "set": "cpp",
-    "unordered_map": "cpp",
-    "unordered_set": "cpp",
-    "exception": "cpp",
-    "algorithm": "cpp",
-    "functional": "cpp",
-    "iterator": "cpp",
-    "memory": "cpp",
-    "memory_resource": "cpp",
-    "numeric": "cpp",
-    "optional": "cpp",
-    "random": "cpp",
-    "ratio": "cpp",
-    "regex": "cpp",
-    "string": "cpp",
-    "string_view": "cpp",
-    "system_error": "cpp",
-    "tuple": "cpp",
-    "type_traits": "cpp",
-    "utility": "cpp",
-    "fstream": "cpp",
-    "future": "cpp",
-    "initializer_list": "cpp",
-    "iomanip": "cpp",
-    "iosfwd": "cpp",
-    "iostream": "cpp",
-    "istream": "cpp",
-    "limits": "cpp",
-    "ostream": "cpp",
-    "shared_mutex": "cpp",
-    "sstream": "cpp",
-    "stdexcept": "cpp",
-    "streambuf": "cpp",
-    "thread": "cpp",
-    "cfenv": "cpp",
-    "cinttypes": "cpp",
-    "typeindex": "cpp",
-    "typeinfo": "cpp",
-    "variant": "cpp",
-    "*.ipp": "cpp",
-    "ciso646": "cpp"
-  },
-  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-  "gitlab.instanceUrl": "https://gitlab.int.phonexia.com/"
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "C_Cpp.enhancedColorization": "Enabled",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "entity.name.type",
+                    "entity.name.namespace"
+                ],
+                "settings": {
+                    "foreground": "#00ffc8c7"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function.member",
+                    "entity.name.function.operator.member",
+                    "punctuation.separator.dot-access",
+                    "punctuation.separator.pointer-access",
+                ],
+                "settings": {
+                    "foreground": "#ffae00"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function",
+                    "entity.name.function.operator",
+                    "entity.name.function.member.static",
+                    "variable.other.property.static",
+                    "variable.other.global",
+                ],
+                "settings": {
+                    "foreground": "#ff7300"
+                }
+            },
+            {
+                "scope": [
+                    "constant.numeric",
+                    "keyword.other.unit",
+                ],
+                "settings": {
+                    "foreground": "#ff5100"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function.preprocessor",
+                ],
+                "settings": {
+                    "foreground": "#C586C0"
+                }
+            },
+            {
+                "scope": "variable.parameter",
+                "settings": {
+                    "foreground": "#ffffff60"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.enummember",
+                    "keyword.operator.logical",
+                    "keyword.operator.ternary",
+                    "keyword.control.throw",
+                    "keyword.operator.new",
+                    "keyword.operator.delete",
+                    "keyword.operator.delete.array",
+                ],
+                "settings": {
+                    "foreground": "#ff2600"
+                }
+            },
+            {
+                "scope": [
+                    "storage.type.class.doxygen",
+                ],
+                "settings": {
+                    "foreground": "#00ec0c"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.control.try",
+                    "keyword.control.catch",
+                ],
+                "settings": {
+                    "foreground": "#16b900"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.local",
+                ],
+                "settings": {
+                    "foreground": "#D4D4D4"
+                }
+            },
+            {
+                "scope": "variable.other.property",
+                "settings": {
+                    "foreground": "#c548ff"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.control",
+                    "keyword.operator.assignment",
+                    "keyword.operator.increment",
+                    "keyword.operator.comparison",
+                    "keyword.operator",
+                    "storage.type",
+                    "constant.language",
+                    "storage.modifier.pointer",
+                    "storage.modifier.reference",
+                    "punctuation.section.angle-brackets.begin.template.call",
+                    "punctuation.section.angle-brackets.end.template.call",
+                ],
+                "settings": {
+                    "foreground": "#569CD6"
+                }
+            }
+        ]
+    },
 }
