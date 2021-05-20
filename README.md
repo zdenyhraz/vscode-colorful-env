@@ -1,5 +1,5 @@
 # VSColors
-Visual Studio & Visual Studio Code dark but colorful settings. Distinguishes member functions, static functions, global functions, member variables, static variables, global variables, macros, parameters, etc. Examples of 2020 version below:
+Visual Studio & Visual Studio Code dark but colorful settings. Distinguishes member functions, static functions, global functions, member variables, static variables, global variables, macros, parameters, etc. Examples below:
 
 
 ## Example result - Visual Studio Code
