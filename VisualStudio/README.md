@@ -1,11 +1,9 @@
 ## Setup - Visual Studio
-Step 1) Download Color Theme Editor for Visual Studio 2017 at 
+- Download Color Theme Editor for Visual Studio 2017 at 
 https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor
 
-Step 2) VisualStudio > Tools > Customize Colors > Import Theme > select the theme (.vstheme file)
+- VisualStudio > Tools > Customize Colors > Import Theme > select the theme (.vstheme file)
 
-Step 3) Productivity++
+- Install the Clang-Format extension
 
-Step 4) (optional) Install the Clang-Format extension
-
-Step 5) (optional) Copy the .clang-format into your repository
+- Copy the .clang-format file into your repository
