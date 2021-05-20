@@ -1,4 +1,3 @@
-## Setup - Visual Studio
 - Download Color Theme Editor for Visual Studio 2017 at 
 https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor
 
