@@ -14,6 +14,7 @@
     "editor.fontLigatures": true,
     "editor.tabSize": 2,
     "editor.minimap.enabled": true,
+    "editor.minimap.scale": 2,
     "editor.tabCompletion": "off",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -32,6 +33,7 @@
                     "entity.name.function.operator.member",
                     "punctuation.separator.dot-access",
                     "punctuation.separator.pointer-access",
+                    "string.quoted.double.include.cpp",
                     "string.quoted.other.lt-gt.include",
                     "entity.other.attribute-name.pragma",
                     "punctuation.section.arguments.begin.bracket.round.function.member",
