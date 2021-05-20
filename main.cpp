@@ -13,10 +13,10 @@ class Entity
 public:
   struct Vec4 // type
   {
-    float x = 0; // built-in type, member variables
-    float y = 0;
-    float z = 0;
-    float w = 0;
+    float x = 0.0f; // built-in type, member variables
+    float y = 0.0f;
+    float z = 0.0f;
+    float w = 0.0f;
 
     const Vec4& operator+=(const Vec4& vec) // member function, argument
     { 
@@ -52,7 +52,7 @@ protected:
   static constexpr int64_t kMaxCount = 1234; 
 
   // member variables
-  int64_t mId = 0; 
+  int64_t mId = static_cast<int64_t>(0.0f); 
   Vec4 mPosition;
   std::string mName;
 };
