@@ -2,6 +2,7 @@
     "C_Cpp.enhancedColorization": "Enabled",
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "workbench.iconTheme": "vscode-icons",
+    //"workbench.colorTheme": "SynthWave '84",
     "git.enableSmartCommit": true,
     "tabnine.experimentalAutoImports": true,
     "[cpp]": {
@@ -13,6 +14,8 @@
     "editor.fontSize": 16,
     "editor.fontLigatures": true,
     "editor.tabSize": 2,
+    "editor.minimap.enabled": true,
+    "editor.tabCompletion": "off",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -30,6 +33,8 @@
                     "entity.name.function.operator.member",
                     "punctuation.separator.dot-access",
                     "punctuation.separator.pointer-access",
+                    "string.quoted.other.lt-gt.include",
+                    "entity.other.attribute-name.pragma",
                 ],
                 "settings": {
                     "foreground": "#ffae00"
@@ -65,7 +70,9 @@
                 }
             },
             {
-                "scope": "variable.parameter",
+                "scope": [
+                    "variable.parameter",
+                ],
                 "settings": {
                     "foreground": "#ffffff60",
                     "fontStyle": "italic"
@@ -80,9 +87,11 @@
                     "keyword.operator.new",
                     "keyword.operator.delete",
                     "keyword.operator.delete.array",
+                    "keyword.operator.comparison",
+                    "keyword.operator.bitwise.shift",
                 ],
                 "settings": {
-                    "foreground": "#ff2600"
+                    "foreground": "#fe4450"
                 }
             },
             {
@@ -126,15 +135,32 @@
             },
             {
                 "scope": [
+                    "support.type.property-name",
+                    "keyword.control.directive.include",
+                    "keyword.control.directive.define.cpp",
+                    "keyword.control.directive",
+                ],
+                "settings": {
+                    "foreground": "#72f1b8"
+                }
+            },
+            {
+                "scope": [],
+                "settings": {
+                    "foreground": "#fede5d"
+                }
+            },
+            {
+                "scope": [
                     "keyword.control",
                     "keyword.operator.assignment",
                     "keyword.operator.increment",
                     "keyword.operator",
-                    "keyword.operator.comparison",
                     "constant.language",
                     "storage.type",
                     "storage.modifier.pointer",
                     "storage.modifier.reference",
+                    "storage.modifier.specifier.const",
                     "punctuation.section.angle-brackets.begin.template.call",
                     "punctuation.section.angle-brackets.end.template.call",
                 ],
