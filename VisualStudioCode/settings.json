@@ -127,6 +127,7 @@
             {
                 "scope": [
                     "variable.other.local",
+                    "meta.paragraph.markdown"
                 ],
                 "settings": {
                     "foreground": "#D4D4D4"
@@ -148,6 +149,7 @@
                     "keyword.control.directive.include",
                     "keyword.control.directive.define.cpp",
                     "keyword.control.directive",
+                    "markup.heading",
                 ],
                 "settings": {
                     "foreground": "#72f1b8"
@@ -183,6 +185,7 @@
                     "punctuation.definition.parameters.end.lambda.cpp",
                     "punctuation.section.block.begin.bracket.curly.lambda",
                     "punctuation.section.block.end.bracket.curly.lambda",
+                    "markup.underline"
                 ],
                 "settings": {
                     "foreground": "#569CD6"
