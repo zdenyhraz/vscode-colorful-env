@@ -4,6 +4,9 @@
     "workbench.iconTheme": "vscode-icons",
     "git.enableSmartCommit": true,
     "tabnine.experimentalAutoImports": true,
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
     "editor.formatOnType": true,
     "editor.formatOnSave": true,
     "editor.fontFamily": "Cascadia Code",
@@ -15,7 +18,7 @@
             {
                 "scope": [
                     "entity.name.type",
-                    "entity.name.namespace"
+                    "entity.name.namespace",
                 ],
                 "settings": {
                     "foreground": "#00ffc8c7"
@@ -58,7 +61,7 @@
                     "entity.name.function.preprocessor",
                 ],
                 "settings": {
-                    "foreground": "#C586C0"
+                    "foreground": "#C586C0",
                 }
             },
             {
@@ -126,10 +129,10 @@
                     "keyword.control",
                     "keyword.operator.assignment",
                     "keyword.operator.increment",
-                    "keyword.operator.comparison",
                     "keyword.operator",
-                    "storage.type",
+                    "keyword.operator.comparison",
                     "constant.language",
+                    "storage.type",
                     "storage.modifier.pointer",
                     "storage.modifier.reference",
                     "punctuation.section.angle-brackets.begin.template.call",
