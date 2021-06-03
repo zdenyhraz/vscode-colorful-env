@@ -4,18 +4,20 @@
     "workbench.iconTheme": "vscode-icons",
     "git.enableSmartCommit": true,
     "tabnine.experimentalAutoImports": true,
-    "[cpp]": {
-        "editor.defaultFormatter": "xaver.clang-format"
-    },
     "editor.formatOnType": true,
     "editor.formatOnSave": true,
     "editor.fontFamily": "Cascadia Code",
+    "editor.fontWeight": "normal",
     "editor.fontSize": 16,
     "editor.fontLigatures": true,
     "editor.tabSize": 2,
     "editor.minimap.enabled": true,
     "editor.minimap.scale": 2,
     "editor.tabCompletion": "off",
+    "editor.semanticHighlighting.enabled": true,
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -122,6 +124,7 @@
             {
                 "scope": [
                     "variable.other.local",
+                    "variable.other.readwrite",
                     "meta.paragraph.markdown"
                 ],
                 "settings": {
@@ -187,5 +190,5 @@
                 }
             }
         ]
-    },
+    }
 }
