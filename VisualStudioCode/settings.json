@@ -17,6 +17,7 @@
     "editor.tabCompletion": "off",
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "terminal.integrated.fontSize": 16,
+    "workbench.iconTheme": "vscode-icons",
     "security.workspace.trust.untrustedFiles": "open",
     "python.formatting.provider": "autopep8",
     "[cpp]": {
@@ -34,6 +35,8 @@
                     "support.type.property-name",
                     "keyword.control.directive",
                     "markup.heading",
+                    "punctuation.separator.scope-resolution.function.call.cpp",
+                    "punctuation.separator.scope-resolution.function.call.cpp",
                 ],
                 "settings": {
                     "foreground": "#bbff00c9"
@@ -72,6 +75,7 @@
                     "entity.name.function.preprocessor",
                     "string.quoted.double.include.cpp",
                     "string.quoted.other.lt-gt.include",
+                    "entity.other.attribute-name.pragma.preprocessor.cpp"
                 ],
                 "settings": {
                     "foreground": "#C586C0",
@@ -104,6 +108,9 @@
                     "keyword.control.catch",
                     "constant.numeric",
                     "keyword.other.unit",
+                    "keyword.operator.comparison",
+                    "keyword.operator.bitwise.shift",
+                    "meta.parens"
                 ],
                 "settings": {
                     "foreground": "#fe4450"
@@ -152,10 +159,9 @@
                     "keyword.operator.assignment",
                     "keyword.operator.increment",
                     "keyword.operator",
-                    "keyword.operator.comparison",
-                    "keyword.operator.bitwise.shift",
                     "keyword.control.directive.include",
                     "keyword.control.directive.define.cpp",
+                    "keyword.control.directive.pragma.cpp",
                     "constant.language",
                     "storage.type",
                     "storage.modifier.pointer",
@@ -172,7 +178,8 @@
                     "punctuation.definition.parameters.end.lambda.cpp",
                     "punctuation.section.block.begin.bracket.curly.lambda",
                     "punctuation.section.block.end.bracket.curly.lambda",
-                    "markup.underline"
+                    "markup.underline",
+                    "meta.body.function.definition.cpp"
                 ],
                 "settings": {
                     "foreground": "#569CD6"
@@ -180,5 +187,4 @@
             }
         ]
     },
-    "workbench.iconTheme": "vscode-icons",
 }
