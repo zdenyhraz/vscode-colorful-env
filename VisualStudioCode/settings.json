@@ -32,11 +32,11 @@
                     "entity.name.scope-resolution.cpp",
                     "entity.name.scope-resolution.function.call.cpp",
                     "entity.name.scope-resolution.parameter.cpp",
+                    "entity.name.scope-resolution.function.definition.cpp",
+                    "punctuation.separator.scope-resolution.function.call.cpp",
                     "support.type.property-name",
                     "keyword.control.directive",
                     "markup.heading",
-                    "punctuation.separator.scope-resolution.function.call.cpp",
-                    "punctuation.separator.scope-resolution.function.call.cpp",
                 ],
                 "settings": {
                     "foreground": "#bbff00c9"
