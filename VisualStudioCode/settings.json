@@ -58,8 +58,6 @@
                     "entity.name.function.member.static",
                     "variable.other.property.static",
                     "variable.other.global",
-                    "constant.numeric",
-                    "keyword.other.unit",
                     "punctuation.section.arguments.begin.bracket.round.function.call.cpp",
                     "punctuation.section.arguments.end.bracket.round.function.call.cpp",
                 ],
@@ -102,6 +100,8 @@
                     "keyword.operator.wordlike",
                     "keyword.control.try",
                     "keyword.control.catch",
+                    "constant.numeric",
+                    "keyword.other.unit",
                 ],
                 "settings": {
                     "foreground": "#fe4450"
