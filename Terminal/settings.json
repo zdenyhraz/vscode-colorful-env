@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "defaults": {
+      // Put settings here that you want to apply to all profiles.
+      "fontFace": "MesloLGS NF",
+      "colorScheme": "Tango Dark"
+    }
+  }
+}

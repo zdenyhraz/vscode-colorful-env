@@ -86,7 +86,7 @@ try // try block
   if (std::any_of(enemies.begin(), enemies.end(), [](const auto& enemy) { return enemy->GetName() != "Bad"; }))
     throw std::runtime_error("These enemies are bad"); // throw
 
-  if (enemies.empty() || enemies.size() >= kMaxEnemies && enemies.size() != -9.3f)
+  if (enemies.empty() || enemies.size() >= kMaxEnemies && enemies.capacity() != 1000)
     throw std::runtime_error("No enemies to work with");
 
   for (const auto& enemy : enemies)
