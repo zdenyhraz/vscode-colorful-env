@@ -6,7 +6,7 @@ VS & VSCode dark but colorful settings. Distinguishes member functions, static f
 ## Terminal
 - install WSL
 - install Ubuntu
-- install WSL extension
+- install VSCode WSL extension
 - sudo apt-get install zsh
 - sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 - Install fonts & follow instructions: https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k Fonts -> Manual font installation (Visual Studio Code, Windows Terminal)
