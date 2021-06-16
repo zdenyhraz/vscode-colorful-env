@@ -18,6 +18,7 @@
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "terminal.integrated.fontSize": 16,
     "security.workspace.trust.untrustedFiles": "open",
+    "python.formatting.provider": "autopep8",
     "[cpp]": {
         "editor.defaultFormatter": "xaver.clang-format"
     },
