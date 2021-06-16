@@ -3,6 +3,8 @@
 #include <atomic>
 #include <vector>
 #include <algorithm>
+#include <string>
+#include <string_view>
 
 #define LOG_DEBUG(message) std::cout << message << std::endl; // macro
 
@@ -26,7 +28,7 @@ public:
     float w = 0.0f;
 
     const Vec4& operator+=(const Vec4& vec) // member function, argument
-    { 
+    {
       x += vec.x; // built-in operator
       y += vec.y;
       z += vec.z;
@@ -36,8 +38,7 @@ public:
   };
 
   // member functions
-  Entity(const std::string_view name, const Vec4& position, EntityType type) :
-    mId(GenerateId()), mName(name), mPosition(position), mType(type) {}
+  Entity(const std::string_view name, const Vec4& position, EntityType type) : mId(GenerateId()), mName(name), mPosition(position), mType(type) {}
 
   void Move(const Vec4& position)
   {
@@ -45,21 +46,18 @@ public:
     mPosition += position; // overloaded operator
   }
 
-  const std::string& GetName() const
-  {
-    return mName;
-  }
+  const std::string& GetName() const { return mName; }
 
 protected:
   // static member functions
-  static int64_t GenerateId() { return kId++; } 
+  static int64_t GenerateId() { return kId++; }
 
   // static member variables
-  static constexpr std::string_view kName = "Entity"; 
-  static constexpr int64_t kMaxCount = 1234; 
+  static constexpr std::string_view kName = "Entity";
+  static constexpr int64_t kMaxCount = 1234;
 
   // member variables
-  int64_t mId = static_cast<int64_t>(0.0f); 
+  int64_t mId = static_cast<int64_t>(0.0f);
   Vec4 mPosition;
   std::string mName;
   EntityType mType;
@@ -72,11 +70,11 @@ T Square(T x)
 }
 
 int main() // function
-try // try block
+try        // try block
 {
   // local variable
   static constexpr auto kMaxEnemies = 100ul;
-  Entity player("Player", {1, 2, 3, 4}, Entity::Player); 
+  Entity player("Player", {1, 2, 3, 4}, Entity::Player);
   player.Move(Entity::Vec4{4, 3, 2, 1});
 
   std::vector<std::shared_ptr<Entity>> enemies;

@@ -1,16 +1,16 @@
 {
     "C_Cpp.enhancedColorization": "Enabled",
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-    "workbench.iconTheme": "vscode-icons",
     "git.enableSmartCommit": true,
     "tabnine.experimentalAutoImports": true,
     "editor.formatOnType": true,
     "editor.formatOnSave": true,
     "editor.fontFamily": "Cascadia Code",
     "editor.fontWeight": "normal",
-    "editor.fontSize": 16,
+    "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "editor.tabSize": 2,
+    "window.zoomLevel": 1.0,
     "editor.minimap.enabled": true,
     "editor.minimap.scale": 2,
     "editor.tabCompletion": "off",
@@ -27,9 +27,14 @@
                 "scope": [
                     "entity.name.type",
                     "entity.name.namespace",
+                    "entity.name.scope-resolution.cpp",
+                    "entity.name.scope-resolution.function.call.cpp",
+                    "support.type.property-name",
+                    "keyword.control.directive",
+                    "markup.heading",
                 ],
                 "settings": {
-                    "foreground": "#00ffc8c7"
+                    "foreground": "#bbff00c9"
                 }
             },
             {
@@ -38,8 +43,6 @@
                     "entity.name.function.operator.member",
                     "punctuation.separator.dot-access",
                     "punctuation.separator.pointer-access",
-                    "string.quoted.double.include.cpp",
-                    "string.quoted.other.lt-gt.include",
                     "entity.other.attribute-name.pragma",
                     "punctuation.section.arguments.begin.bracket.round.function.member",
                     "punctuation.section.arguments.end.bracket.round.function.member",
@@ -61,15 +64,18 @@
                     "punctuation.section.arguments.end.bracket.round.function.call.cpp",
                 ],
                 "settings": {
-                    "foreground": "#ff7300"
+                    "foreground": "#ff8119"
                 }
             },
             {
                 "scope": [
                     "entity.name.function.preprocessor",
+                    "string.quoted.double.include.cpp",
+                    "string.quoted.other.lt-gt.include",
                 ],
                 "settings": {
                     "foreground": "#C586C0",
+                    "fontStyle": "italic"
                 }
             },
             {
@@ -94,6 +100,8 @@
                     "keyword.operator.and",
                     "keyword.operator.not",
                     "keyword.operator.wordlike",
+                    "keyword.control.try",
+                    "keyword.control.catch",
                 ],
                 "settings": {
                     "foreground": "#fe4450"
@@ -104,6 +112,7 @@
                     "comment",
                 ],
                 "settings": {
+                    "foreground": "#ffffff60",
                     "fontStyle": "italic"
                 }
             },
@@ -113,15 +122,6 @@
                 ],
                 "settings": {
                     "foreground": "#00ec0c"
-                }
-            },
-            {
-                "scope": [
-                    "keyword.control.try",
-                    "keyword.control.catch",
-                ],
-                "settings": {
-                    "foreground": "#16b900"
                 }
             },
             {
@@ -146,30 +146,14 @@
             },
             {
                 "scope": [
-                    "support.type.property-name",
-                    "keyword.control.directive.include",
-                    "keyword.control.directive.define.cpp",
-                    "keyword.control.directive",
-                    "markup.heading",
-                ],
-                "settings": {
-                    "foreground": "#72f1b8"
-                }
-            },
-            {
-                "scope": [],
-                "settings": {
-                    "foreground": "#fede5d"
-                }
-            },
-            {
-                "scope": [
                     "keyword.control",
                     "keyword.operator.assignment",
                     "keyword.operator.increment",
                     "keyword.operator",
                     "keyword.operator.comparison",
                     "keyword.operator.bitwise.shift",
+                    "keyword.control.directive.include",
+                    "keyword.control.directive.define.cpp",
                     "constant.language",
                     "storage.type",
                     "storage.modifier.pointer",
@@ -193,5 +177,6 @@
                 }
             }
         ]
-    }
+    },
+    "workbench.iconTheme": "vscode-icons",
 }
