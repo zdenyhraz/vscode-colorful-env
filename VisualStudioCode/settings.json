@@ -110,7 +110,6 @@
                     "keyword.other.unit",
                     "keyword.operator.comparison",
                     "keyword.operator.bitwise.shift",
-                    "meta.parens"
                 ],
                 "settings": {
                     "foreground": "#fe4450"
@@ -179,7 +178,6 @@
                     "punctuation.section.block.begin.bracket.curly.lambda",
                     "punctuation.section.block.end.bracket.curly.lambda",
                     "markup.underline",
-                    "meta.body.function.definition.cpp"
                 ],
                 "settings": {
                     "foreground": "#569CD6"
