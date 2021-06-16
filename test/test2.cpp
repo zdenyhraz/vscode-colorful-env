@@ -8,7 +8,7 @@
 
 #define LOG_DEBUG(message) std::cout << message << std::endl; // macro
 
-std::atomic<int64_t> kId = 0; // namespace, type, global variable, literal
+std::atomic<int64_t> kId = 0; // namespace, type, global variable, literal, comment
 
 class Entity // type
 {
