@@ -46,6 +46,7 @@ public:
     mPosition += position; // overloaded operator
   }
 
+  // member function
   const std::string& GetName() const { return mName; }
 
 protected:
@@ -63,16 +64,14 @@ protected:
 };
 
 template <typename T> // template
-T Square(T x)
+T Square(T x)         // function, type, agrument
 {
   return x * x;
 }
 
-int main() // function
-try        // try block
+int main()
+try // try block
 {
-  // local variable
-  static constexpr auto kMaxEnemies = 100ul;
   Entity player("Player", {1.63, 2.45, 3.98, 4.12}, Entity::Player);
   player.Move({4, 3, 2, 1});
 
@@ -83,7 +82,7 @@ try        // try block
   if (std::any_of(enemies.begin(), enemies.end(), [](const auto& enemy) { return enemy->GetName() != "Bad"; }))
     throw std::runtime_error("These enemies are bad"); // throw
 
-  if (enemies.empty() || enemies.size() >= kMaxEnemies && enemies.capacity() != 1000)
+  if (enemies.empty() || enemies.size() >= 100 && enemies.capacity() != 1000)
     throw std::runtime_error("No enemies to work with");
 
   for (const auto& enemy : enemies)
@@ -91,5 +90,5 @@ try        // try block
 }
 catch (const std::exception& e) // catch block
 {
-  LOG_DEBUG("Error: " << e.what());
+  LOG_DEBUG("Error: " << e.what()); // macro
 }
