@@ -38,7 +38,7 @@ public:
   };
 
   // member functions
-  Entity(const std::string_view name, const Vec4& position, EntityType type) : mId(GenerateId()), mName(name), mPosition(position), mType(type) {}
+  Entity(const std::string& name, const Vec4& position, EntityType type) : mId(GenerateId()), mName(name), mPosition(position), mType(type) {}
 
   void Move(const Vec4& position)
   {
@@ -53,13 +53,12 @@ protected:
   static int64_t GenerateId() { return kId++; }
 
   // static member variables
-  static constexpr std::string_view kName = "Entity";
   static constexpr int64_t kMaxCount = 1234;
 
   // member variables
   int64_t mId = static_cast<int64_t>(0.0f);
+  std::string mName = "Entity";
   Vec4 mPosition;
-  std::string mName;
   EntityType mType;
 };
 
@@ -74,8 +73,8 @@ try        // try block
 {
   // local variable
   static constexpr auto kMaxEnemies = 100ul;
-  Entity player("Player", {1, 2, 3, 4}, Entity::Player);
-  player.Move(Entity::Vec4{4, 3, 2, 1});
+  Entity player("Player", {1.63, 2.45, 3.98, 4.12}, Entity::Player);
+  player.Move({4, 3, 2, 1});
 
   std::vector<std::shared_ptr<Entity>> enemies;
   enemies.emplace_back(std::make_shared<Entity>("Enemy 1", Entity::Vec4{1, 2, 3, 4}, Entity::Enemy));

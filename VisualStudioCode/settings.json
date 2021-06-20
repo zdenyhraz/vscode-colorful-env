@@ -1,5 +1,6 @@
 {
     "C_Cpp.enhancedColorization": "Enabled",
+    "editor.semanticHighlighting.enabled": true,
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "git.enableSmartCommit": true,
     "tabnine.experimentalAutoImports": true,
@@ -13,10 +14,9 @@
     "window.zoomLevel": 1.0,
     "editor.minimap.enabled": true,
     "editor.minimap.scale": 2,
-    "editor.semanticHighlighting.enabled": true,
     "editor.tabCompletion": "off",
     "terminal.integrated.fontFamily": "MesloLGS NF",
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontSize": 14,
     "workbench.iconTheme": "vscode-icons",
     "security.workspace.trust.untrustedFiles": "open",
     "python.formatting.provider": "autopep8",
@@ -88,7 +88,6 @@
                 ],
                 "settings": {
                     "foreground": "#ffffff60",
-                    "fontStyle": "italic"
                 }
             },
             {
@@ -121,7 +120,7 @@
                 ],
                 "settings": {
                     "foreground": "#ffffff60",
-                    "fontStyle": "italic"
+                    "fontStyle": "italic",
                 }
             },
             {
@@ -184,5 +183,8 @@
                 }
             }
         ]
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
     },
 }
