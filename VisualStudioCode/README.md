@@ -1,1 +1,0 @@
-- Download cascadia code font from https://github.com/microsoft/cascadia-code/releases

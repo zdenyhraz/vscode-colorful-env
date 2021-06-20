@@ -3,6 +3,9 @@ VS & VSCode dark but colorful settings. Distinguishes member functions, static f
 
 ![](https://github.com/zdenyhraz/VSColors/blob/master/pics/colors1.PNG?raw=true "colors1")
 
+## Color Theme
+- Download cascadia code font from https://github.com/microsoft/cascadia-code/releases
+
 ## Terminal
 - install WSL
 - install Ubuntu via Microsoft Store
