@@ -20,3 +20,10 @@ VS & VSCode dark but colorful settings. Distinguishes member functions, static f
 - plugins=(git zsh-autosuggestions zsh-syntax-highlighting) in ~/.zshrc
 - git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 - git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+## Linux dev environment
+- sudo apt update
+- sudo apt -y upgrade
+- sudo apt -y install build-essential
+- sudo apt -y install python3-pip
+- pip install conan
