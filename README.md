@@ -27,3 +27,5 @@ VS & VSCode dark but colorful settings. Distinguishes member functions, static f
 - sudo apt -y install build-essential
 - sudo apt -y install python3-pip
 - sudo pip install conan
+- conan profile new default --detect
+- conan profile update settings.compiler.libcxx=libstdc++11 default
