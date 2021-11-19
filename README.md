@@ -25,6 +25,7 @@ VS & VSCode dark but colorful settings. Distinguishes member functions, static f
 - sudo apt update
 - sudo apt -y upgrade
 - sudo apt -y install build-essential
+- sudo apt -y install clang-format
 - sudo apt -y install python3-pip
 - sudo pip install conan
 - conan profile new default --detect
