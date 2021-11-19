@@ -32,4 +32,4 @@ VS & VSCode dark but colorful settings. Distinguishes member functions, static f
 
 ## Build
 - mkdir/cd build
-- conan install .. --build missing
+- conan install .. --build=missing
