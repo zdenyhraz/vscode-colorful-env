@@ -30,6 +30,8 @@ VS & VSCode dark but colorful settings. Distinguishes member functions, static f
 - sudo pip install conan
 - conan profile new default --detect
 - conan profile update settings.compiler.libcxx=libstdc++11 default
+- git config --global user.email "xxxx@xxx.com"
+- git config --global user.name "xxxx"
 
 ## Build
 - mkdir/cd build
