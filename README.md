@@ -34,6 +34,6 @@ VS & VSCode dark but colorful settings. Distinguishes member functions, static f
 - git config --global user.email "xxxx@xxx.com"
 - git config --global user.name "xxxx"
 
-## Build
+## Conan build
 - mkdir/cd build
 - conan install .. --build=missing
