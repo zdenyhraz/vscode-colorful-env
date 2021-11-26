@@ -1,9 +1,45 @@
 {
+    "cmake.configureSettings": {
+        //"CMAKE_TOOLCHAIN_FILE": "${workspaceFolder}/toolchain-ppc-p2020.cmake",
+    },
+    "cmake.environment": {
+        //"FIRMWARE_SHAREPOINT": "${workspaceFolder}/results",
+    },
+    "cmake.parallelJobs": 6,
+    "cmake.configureOnOpen": false,
     "C_Cpp.enhancedColorization": "Enabled",
-    "editor.semanticHighlighting.enabled": true,
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "git.enableSmartCommit": true,
+    "git.autofetch": true,
     "tabnine.experimentalAutoImports": true,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 14,
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "python.formatting.provider": "autopep8",
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.zoomLevel": 1,
+    "output.smartScroll.enabled": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorCustomizations": {
+        "terminal.ansiBlue": "#0077ff",
+        "terminal.ansiGreen": "#5eb140",
+        "terminal.ansiYellow": "#fac13b",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.background": "#2c2f33",
+        "statusBarItem.hoverBackground": "#ffffff1f",
+        "statusBar.debuggingBackground": "#df8634",
+        "statusBar.debuggingForeground": "#ffffff",
+        "statusBar.noFolderBackground": "#4bb47b",
+        "statusBar.noFolderForeground": "#ffffff",
+        "statusBarItem.remoteBackground": "#5b6eb4",
+        "statusBarItem.remoteForeground": "#ffffff",
+    },
+    "editor.semanticHighlighting.enabled": true,
     "editor.formatOnType": true,
     "editor.formatOnSave": true,
     "editor.fontFamily": "Cascadia Code",
@@ -11,30 +47,25 @@
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "editor.tabSize": 2,
-    "window.zoomLevel": 1.0,
     "editor.minimap.enabled": true,
     "editor.minimap.scale": 2,
     "editor.tabCompletion": "off",
-    "terminal.integrated.fontFamily": "MesloLGS NF",
-    "terminal.integrated.fontSize": 14,
-    "workbench.iconTheme": "vscode-icons",
-    "security.workspace.trust.untrustedFiles": "open",
-    "python.formatting.provider": "autopep8",
-    "[cpp]": {
-        "editor.defaultFormatter": "xaver.clang-format"
-    },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
                 "scope": [
                     "entity.name.type",
                     "entity.name.namespace",
+                    "entity.name.namespace.cpp",
+                    "entity.name.type.class.templated",
                     "entity.name.scope-resolution.cpp",
                     "entity.name.scope-resolution.function.call.cpp",
                     "entity.name.scope-resolution.parameter.cpp",
                     "entity.name.scope-resolution.function.definition.cpp",
                     "punctuation.separator.scope-resolution.function.call.cpp",
                     "support.type.property-name",
+                    "support.type.property-name.json",
+                    "support.type.property-name.json punctuation",
                     "keyword.control.directive",
                     "markup.heading",
                 ],
@@ -51,6 +82,7 @@
                     "entity.other.attribute-name.pragma",
                     "punctuation.section.arguments.begin.bracket.round.function.member",
                     "punctuation.section.arguments.end.bracket.round.function.member",
+                    "support.function",
                 ],
                 "settings": {
                     "foreground": "#ffae00"
@@ -59,8 +91,8 @@
             {
                 "scope": [
                     "entity.name.function",
-                    "entity.name.function.operator",
                     "entity.name.function.member.static",
+                    "entity.name.function.operator",
                     "variable.other.property.static",
                     "variable.other.global",
                     "punctuation.section.arguments.begin.bracket.round.function.call.cpp",
@@ -88,6 +120,7 @@
                 ],
                 "settings": {
                     "foreground": "#ffffff60",
+                    "fontStyle": ""
                 }
             },
             {
@@ -108,7 +141,9 @@
                     "constant.numeric",
                     "keyword.other.unit",
                     "keyword.operator.comparison",
+                    "keyword.operator.comparison.cpp",
                     "keyword.operator.bitwise.shift",
+                    "entity.name.function.operator.cpp"
                 ],
                 "settings": {
                     "foreground": "#fe4450"
@@ -119,7 +154,7 @@
                     "comment",
                 ],
                 "settings": {
-                    "foreground": "#ffffff60",
+                    "foreground": "#6B7A84",
                     "fontStyle": "italic",
                 }
             },
@@ -153,17 +188,44 @@
             },
             {
                 "scope": [
+                    "string",
+                    "punctuation.definition.string.begin",
+                    "punctuation.definition.string.end"
+                ],
+                "settings": {
+                    "foreground": "#CE9178"
+                }
+            },
+            {
+                "scope": [
+                    "constant.character.escape"
+                ],
+                "settings": {
+                    "foreground": "#D7BA7D"
+                }
+            },
+            {
+                "scope": [
                     "keyword.control",
                     "keyword.operator.assignment",
+                    "keyword.operator.assignment.cpp",
                     "keyword.operator.increment",
+                    "keyword.operator.bitwise",
+                    "keyword.operator.arithmetic",
+                    "keyword.operator.arithmetic.cpp",
                     "keyword.operator",
                     "keyword.control.directive.include",
                     "keyword.control.directive.define.cpp",
                     "keyword.control.directive.pragma.cpp",
+                    "keyword.other",
                     "constant.language",
                     "storage.type",
+                    "storage.modifier",
+                    "storage.modifier.specifier",
                     "storage.modifier.pointer",
                     "storage.modifier.reference",
+                    "storage.modifier.virtual",
+                    "storage.modifier.static",
                     "punctuation.section.angle-brackets.start.template.definition",
                     "punctuation.section.angle-brackets.end.template.definition",
                     "punctuation.section.angle-brackets.begin.template.call",
@@ -176,7 +238,12 @@
                     "punctuation.definition.parameters.end.lambda.cpp",
                     "punctuation.section.block.begin.bracket.curly.lambda",
                     "punctuation.section.block.end.bracket.curly.lambda",
+                    "punctuation.definition.begin.bracket.square",
+                    "punctuation.definition.end.bracket.square",
+                    "punctuation.separator.colon.range-based.cpp",
+                    "punctuation.separator.colon.inheritance",
                     "markup.underline",
+                    "variable.language"
                 ],
                 "settings": {
                     "foreground": "#569CD6"
@@ -184,7 +251,5 @@
             }
         ]
     },
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
-    },
+    "workbench.colorTheme": "Discord Theme",
 }
