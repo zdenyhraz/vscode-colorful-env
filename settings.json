@@ -139,6 +139,11 @@
                     "punctuation.section.block.end.bracket.curly.function.definition.special.constructor.cpp",
                     "punctuation.section.block.begin.bracket.curly.function.definition.special.member.destructor.cpp",
                     "punctuation.section.block.end.bracket.curly.function.definition.special.member.destructor.cpp",
+                    "string.quoted.double.json.comments",
+                    "punctuation.definition.string.begin.json.comments",
+                    "punctuation.definition.string.end.json.comments",
+                    "constant.numeric.json.comments",
+                    "constant.language.json.comments"
                 ],
                 "settings": {
                     "foreground": "#ffae00"
