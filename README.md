@@ -2,8 +2,9 @@
 VS & VSCode dark but colorful settings. Distinguishes member functions, static functions, global functions, member variables, static variables, global variables, macros, preprocessor directives, parameters, operators, etc.
 
 ## Visual Studio Code Theme
-- Update your Visual Studio Code settings from settings.json
+- Install vscode extension https://marketplace.visualstudio.com/items?itemName=tanmay.discord-theme
 - Download cascadia code font from https://github.com/microsoft/cascadia-code/releases
+- Update your vscode settings from settings.json
 <img src="pics/vscode.jpg" width="100%">
 
 ## Terminal Theme
