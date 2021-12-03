@@ -4,7 +4,7 @@ VS & VSCode dark but colorful settings. Distinguishes member functions, static f
 ## Visual Studio Code Theme
 - Update your Visual Studio Code settings from settings.json
 - Download cascadia code font from https://github.com/microsoft/cascadia-code/releases
-<img src="pics/colors.PNG" width="100%">
+<img src="pics/vscode.jpg" width="100%">
 
 ## Terminal Theme
 - sudo apt-get install zsh
@@ -31,5 +31,3 @@ VS & VSCode dark but colorful settings. Distinguishes member functions, static f
 - sudo apt -y install clang-format
 - git config --global user.email "xxxx@xxx.com"
 - git config --global user.name "xxxx"
-
-
