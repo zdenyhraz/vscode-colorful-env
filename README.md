@@ -7,7 +7,7 @@ VS & VSCode dark but colorful settings. Distinguishes member functions, static f
 - Update your Visual Studio Code settings from settings.json
 - Download cascadia code font from https://github.com/microsoft/cascadia-code/releases
 
-## Terminal
+## Terminal Theme
 - install WSL
 - install Ubuntu via Microsoft Store
 - install VSCode WSL extension
