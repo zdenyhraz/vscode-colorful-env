@@ -166,7 +166,9 @@
             {
                 "scope": [
                     "entity.name.function.preprocessor",
-                    "entity.other.attribute-name.pragma.preprocessor.cpp"
+                    "entity.other.attribute-name.pragma.preprocessor.cpp",
+                    "punctuation.definition.parameters.begin.preprocessor.cpp",
+                    "punctuation.definition.parameters.end.preprocessor.cpp",
                 ],
                 "settings": {
                     "foreground": "#C586C0",
