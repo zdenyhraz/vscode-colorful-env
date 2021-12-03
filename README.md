@@ -4,7 +4,7 @@ VS & VSCode dark but colorful settings. Distinguishes member functions, static f
 ## Visual Studio Code Theme
 - Install vscode theme https://marketplace.visualstudio.com/items?itemName=tanmay.discord-theme
 - Download cascadia code font from https://github.com/microsoft/cascadia-code/releases
-- Update your vscode settings from settings.json
+- Update your vscode settings from `VisualStudioCode/settings.json`
 
 <img src="pics/vscode.jpg" width="100%">
 
