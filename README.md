@@ -5,11 +5,11 @@ VS & VSCode dark but colorful settings. Distinguishes functions, member function
 - Install vscode theme https://marketplace.visualstudio.com/items?itemName=tanmay.discord-theme
 - Download cascadia code font from https://github.com/microsoft/cascadia-code/releases
 - Update your `settings.json` from `VisualStudioCode/settings.json` - mainly the following fields
-- `workbench.colorTheme`
-- `workbench.colorCustomizations`
-- `editor.fontFamily`
-- `editor.semanticTokenColorCustomizations` 
-- `editor.tokenColorCustomizations`
+  - `workbench.colorTheme`
+  - `workbench.colorCustomizations`
+  - `editor.fontFamily`
+  - `editor.semanticTokenColorCustomizations` 
+  - `editor.tokenColorCustomizations`
 
 <img src="pics/vscode.jpg" width="100%">
 
@@ -36,7 +36,10 @@ VS & VSCode dark but colorful settings. Distinguishes functions, member function
 - `git config --global user.name "xxxx"`
 
 ## Visual Studio Theme
-- Install the Color Theme Editor extension https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor
+- Install the Color Theme Editor/Designer extension
+  - Visual Studio 2017: https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor
+  - Visual Studio 2019: https://marketplace.visualstudio.com/items?itemName=ms-madsk.ColorThemeDesigner
+  - Visual Studio 2022: https://marketplace.visualstudio.com/items?itemName=idex.colorthemedesigner2022
 - VisualStudio > Tools > Customize Colors > Import Theme > select the theme `VisualStudio/dark_zdeny.vstheme`
 
 ## Windows Terminal Theme
