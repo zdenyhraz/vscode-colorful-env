@@ -4,7 +4,12 @@ VS & VSCode dark but colorful settings. Distinguishes member functions, static f
 ## Visual Studio Code Theme
 - Install vscode theme https://marketplace.visualstudio.com/items?itemName=tanmay.discord-theme
 - Download cascadia code font from https://github.com/microsoft/cascadia-code/releases
-- Update your vscode settings from `VisualStudioCode/settings.json`
+- Update your `settings.json` from `VisualStudioCode/settings.json` - mainly the following fields:
+- `workbench.colorTheme`
+- `workbench.colorCustomizations`
+- `editor.fontFamily`
+- `editor.semanticTokenColorCustomizations` 
+- `editor.tokenColorCustomizations`
 
 <img src="pics/vscode.jpg" width="100%">
 
@@ -21,6 +26,19 @@ VS & VSCode dark but colorful settings. Distinguishes member functions, static f
 
 <img src="pics/terminal.jpg" width="100%">
 
+## Linux dev environment
+- `sudo apt update`
+- `sudo apt -y upgrade`
+- `sudo apt -y install build-essential`
+- `sudo apt-get install gdb`
+- `sudo apt -y install clang-format`
+- `git config --global user.email "xxxx@xxx.com"`
+- `git config --global user.name "xxxx"`
+
+## Visual Studio Theme
+- Install the Color Theme Editor extension https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor
+- VisualStudio > Tools > Customize Colors > Import Theme > select the theme `VisualStudio/dark_zdeny.vstheme`
+
 ## Windows Terminal Theme
 - install Windows Terminal https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701
 - use `WindowsTerminal/settings.json` settings
@@ -30,11 +48,4 @@ VS & VSCode dark but colorful settings. Distinguishes member functions, static f
 - install Ubuntu via Microsoft Store
 - install vscode WSL extension
 
-## Linux dev environment
-- `sudo apt update`
-- `sudo apt -y upgrade`
-- `sudo apt -y install build-essential`
-- `sudo apt-get install gdb`
-- `sudo apt -y install clang-format`
-- `git config --global user.email "xxxx@xxx.com"`
-- `git config --global user.name "xxxx"`
+
