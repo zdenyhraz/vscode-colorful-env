@@ -1,10 +1,10 @@
 # Visual Studio & Visual Studio Code colorful environment
-VS & VSCode dark but colorful settings. Distinguishes member functions, static functions, global functions, member variables, static variables, global variables, macros, preprocessor directives, parameters, operators, etc.
+VS & VSCode dark but colorful settings. Distinguishes functions, member functions, static functions, local variables, member variables, static variables, global variables, macros, preprocessor directives, function parameters, operators, overloaded operators, enums, lambdas, ...
 
 ## Visual Studio Code Theme
 - Install vscode theme https://marketplace.visualstudio.com/items?itemName=tanmay.discord-theme
 - Download cascadia code font from https://github.com/microsoft/cascadia-code/releases
-- Update your `settings.json` from `VisualStudioCode/settings.json` - mainly the following fields:
+- Update your `settings.json` from `VisualStudioCode/settings.json` - mainly the following fields
 - `workbench.colorTheme`
 - `workbench.colorCustomizations`
 - `editor.fontFamily`
@@ -26,7 +26,7 @@ VS & VSCode dark but colorful settings. Distinguishes member functions, static f
 
 <img src="pics/terminal.jpg" width="100%">
 
-## Linux dev environment
+## Linux C++ dev environment
 - `sudo apt update`
 - `sudo apt -y upgrade`
 - `sudo apt -y install build-essential`
@@ -43,9 +43,10 @@ VS & VSCode dark but colorful settings. Distinguishes member functions, static f
 - install Windows Terminal https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701
 - use `WindowsTerminal/settings.json` settings
 
-## Windows dev environment
+## Windows C++ dev environment
 - install WSL 2
 - install Ubuntu via Microsoft Store
 - install vscode WSL extension
+- follow steps in `Linux C++ dev environment`
 
 
