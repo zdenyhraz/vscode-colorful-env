@@ -27,13 +27,7 @@ VS & VSCode dark but colorful settings. Distinguishes member functions, static f
 - sudo apt -y install build-essential
 - sudo apt-get install gdb
 - sudo apt -y install clang-format
-- sudo apt -y install python3-pip
-- sudo pip install conan
-- conan profile new default --detect
-- conan profile update settings.compiler.libcxx=libstdc++11 default
 - git config --global user.email "xxxx@xxx.com"
 - git config --global user.name "xxxx"
 
-## Conan build
-- mkdir/cd build
-- conan install .. --build=missing
+
