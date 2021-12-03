@@ -194,9 +194,6 @@
                     "keyword.control.catch",
                     "constant.numeric",
                     "keyword.other.unit",
-                    "keyword.operator.comparison",
-                    "keyword.operator.comparison.cpp",
-                    "keyword.operator.bitwise.shift",
                     "entity.name.function.operator.cpp",
                 ],
                 "settings": {
@@ -298,7 +295,11 @@
                     "punctuation.separator.colon.inheritance",
                     "markup.underline",
                     "variable.language",
-                    "meta.template.call.cpp"
+                    "meta.template.call.cpp",
+                    "keyword.operator.comparison",
+                    "keyword.operator.comparison.cpp",
+                    "keyword.operator.bitwise.shift",
+                    "keyword.operator.bitwise.shift.cpp",
                 ],
                 "settings": {
                     "foreground": "#569CD6"
