@@ -11,7 +11,6 @@
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "git.enableSmartCommit": true,
     "git.autofetch": true,
-    "tabnine.experimentalAutoImports": true,
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "terminal.integrated.fontSize": 14,
     "security.workspace.trust.untrustedFiles": "open",
@@ -25,6 +24,55 @@
     "window.zoomLevel": 1,
     "output.smartScroll.enabled": false,
     "workbench.iconTheme": "vscode-icons",
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "Cascadia Code",
+    "editor.fontWeight": "normal",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": true,
+    "editor.minimap.scale": 2,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "type": {
+                "foreground": "#4effacc7"
+            },
+            "namespace": {
+                "foreground": "#4effacc7"
+            },
+            "templateType": {
+                "foreground": "#4effacc7"
+            },
+            "variable": {
+                "foreground": "#D4D4D4"
+            },
+            "enumMember": {
+                "foreground": "#fe4450"
+            },
+            "function": {
+                "foreground": "#ff8119"
+            },
+            "method": {
+                "foreground": "#ffae00"
+            },
+            "memberOperatorOverload": {
+                "foreground": "#ffae00"
+            },
+            "parameter": {
+                "foreground": "#ffffff60"
+            },
+            "property": {
+                "foreground": "#c548ff"
+            },
+            "macro": {
+                "foreground": "#C586C0",
+                "fontStyle": "italic"
+            },
+        }
+    },
     "workbench.colorCustomizations": {
         "terminal.ansiBlue": "#0077ff",
         "terminal.ansiGreen": "#5eb140",
@@ -39,17 +87,6 @@
         "statusBarItem.remoteBackground": "#5b6eb4",
         "statusBarItem.remoteForeground": "#ffffff",
     },
-    "editor.semanticHighlighting.enabled": true,
-    "editor.formatOnType": true,
-    "editor.formatOnSave": true,
-    "editor.fontFamily": "Cascadia Code",
-    "editor.fontWeight": "normal",
-    "editor.fontSize": 14,
-    "editor.fontLigatures": true,
-    "editor.tabSize": 2,
-    "editor.minimap.enabled": true,
-    "editor.minimap.scale": 2,
-    "editor.tabCompletion": "off",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -62,12 +99,19 @@
                     "entity.name.scope-resolution.function.call.cpp",
                     "entity.name.scope-resolution.parameter.cpp",
                     "entity.name.scope-resolution.function.definition.cpp",
+                    "punctuation.separator.scope-resolution.cpp",
                     "punctuation.separator.scope-resolution.function.call.cpp",
                     "support.type.property-name",
                     "support.type.property-name.json",
                     "support.type.property-name.json punctuation",
                     "keyword.control.directive",
                     "markup.heading",
+                    "punctuation.section.block.begin.bracket.curly.class.cpp",
+                    "punctuation.section.block.end.bracket.curly.class.cpp",
+                    "punctuation.section.block.begin.bracket.curly.struct.cpp",
+                    "punctuation.section.block.end.bracket.curly.struct.cpp",
+                    "punctuation.section.block.begin.bracket.curly.enum.cpp",
+                    "punctuation.section.block.end.bracket.curly.enum.cpp",
                 ],
                 "settings": {
                     "foreground": "#4effacc7"
@@ -83,6 +127,18 @@
                     "punctuation.section.arguments.begin.bracket.round.function.member",
                     "punctuation.section.arguments.end.bracket.round.function.member",
                     "support.function",
+                    "punctuation.section.block.begin.bracket.curly.function.definition.cpp",
+                    "punctuation.section.block.end.bracket.curly.function.definition.cpp",
+                    "punctuation.section.parameters.begin.bracket.round.cpp",
+                    "punctuation.section.parameters.end.bracket.round.cpp",
+                    "punctuation.section.parameters.begin.bracket.round.special.constructor.cpp",
+                    "punctuation.section.parameters.end.bracket.round.special.constructor.cpp",
+                    "punctuation.section.parameters.begin.bracket.round.special.member.destructor.cpp",
+                    "punctuation.section.parameters.end.bracket.round.special.member.destructor.cpp",
+                    "punctuation.section.block.begin.bracket.curly.function.definition.special.constructor.cpp",
+                    "punctuation.section.block.end.bracket.curly.function.definition.special.constructor.cpp",
+                    "punctuation.section.block.begin.bracket.curly.function.definition.special.member.destructor.cpp",
+                    "punctuation.section.block.end.bracket.curly.function.definition.special.member.destructor.cpp",
                 ],
                 "settings": {
                     "foreground": "#ffae00"
@@ -105,8 +161,6 @@
             {
                 "scope": [
                     "entity.name.function.preprocessor",
-                    "string.quoted.double.include.cpp",
-                    "string.quoted.other.lt-gt.include",
                     "entity.other.attribute-name.pragma.preprocessor.cpp"
                 ],
                 "settings": {
@@ -143,7 +197,7 @@
                     "keyword.operator.comparison",
                     "keyword.operator.comparison.cpp",
                     "keyword.operator.bitwise.shift",
-                    "entity.name.function.operator.cpp"
+                    "entity.name.function.operator.cpp",
                 ],
                 "settings": {
                     "foreground": "#fe4450"
@@ -243,7 +297,8 @@
                     "punctuation.separator.colon.range-based.cpp",
                     "punctuation.separator.colon.inheritance",
                     "markup.underline",
-                    "variable.language"
+                    "variable.language",
+                    "meta.template.call.cpp"
                 ],
                 "settings": {
                     "foreground": "#569CD6"
@@ -252,4 +307,8 @@
         ]
     },
     "workbench.colorTheme": "Discord Theme",
+    "clang-format.assumeFilename": ".clang-format",
+    "clang-format.language.apex.enable": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.confirmSync": false,
 }
