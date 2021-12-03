@@ -42,6 +42,8 @@ VS & VSCode dark but colorful settings. Distinguishes functions, member function
   - Visual Studio 2022: https://marketplace.visualstudio.com/items?itemName=idex.colorthemedesigner2022
 - VisualStudio > Tools > Customize Colors > Import Theme > select the theme `VisualStudio/dark_zdeny.vstheme`
 
+<img src="pics/vs.jpg" width="100%">
+
 ## Windows Terminal Theme
 - install Windows Terminal https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701
 - use `WindowsTerminal/settings.json` settings
