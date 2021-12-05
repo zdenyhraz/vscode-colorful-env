@@ -40,6 +40,9 @@
             "type": {
                 "foreground": "#4effacc7"
             },
+            "class": {
+                "foreground": "#4effacc7"
+            },
             "namespace": {
                 "foreground": "#4effacc7"
             },
@@ -56,6 +59,9 @@
                 "foreground": "#ff8119"
             },
             "method": {
+                "foreground": "#ffae00"
+            },
+            "magicFunction": {
                 "foreground": "#ffae00"
             },
             "memberOperatorOverload": {
@@ -143,7 +149,7 @@
                     "punctuation.definition.string.begin.json.comments",
                     "punctuation.definition.string.end.json.comments",
                     "constant.numeric.json.comments",
-                    "constant.language.json.comments"
+                    "constant.language.json.comments",
                 ],
                 "settings": {
                     "foreground": "#ffae00"
@@ -307,6 +313,7 @@
                     "keyword.operator.comparison.cpp",
                     "keyword.operator.bitwise.shift",
                     "keyword.operator.bitwise.shift.cpp",
+                    "keyword.control.flow.python"
                 ],
                 "settings": {
                     "foreground": "#569CD6"
@@ -319,4 +326,8 @@
     "clang-format.language.apex.enable": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "git.confirmSync": false,
+    "tabnine.experimentalAutoImports": true,
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c17",
+    "qttools.loglevel": "error",
 }
