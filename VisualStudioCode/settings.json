@@ -5,6 +5,10 @@
     "cmake.environment": {
         //"FIRMWARE_SHAREPOINT": "${workspaceFolder}/results",
     },
+    "cmake.mingwSearchDirs": [
+        "C:\\msys64\\mingw64\\bin"
+    ],
+    //"cmake.generator": "MinGW Makefiles", //"Ninja",
     "cmake.parallelJobs": 6,
     "cmake.configureOnOpen": false,
     "C_Cpp.enhancedColorization": "Enabled",
@@ -16,12 +20,18 @@
     "security.workspace.trust.untrustedFiles": "open",
     "explorer.confirmDelete": false,
     "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--indent-size",
+        "2",
+        "--max-line-length",
+        "120",
+        "--experimental"
+    ],
     "[cpp]": {
         "editor.defaultFormatter": "xaver.clang-format"
     },
     "explorer.confirmDragAndDrop": false,
     "vsicons.dontShowNewVersionMessage": true,
-    "window.zoomLevel": 1,
     "output.smartScroll.enabled": false,
     "workbench.iconTheme": "vscode-icons",
     "editor.formatOnType": true,
@@ -67,6 +77,9 @@
             "memberOperatorOverload": {
                 "foreground": "#ffae00"
             },
+            "operatorOverload": {
+                "foreground": "#ff8119"
+            },
             "parameter": {
                 "foreground": "#ffffff60"
             },
@@ -107,6 +120,7 @@
                     "entity.name.scope-resolution.function.definition.cpp",
                     "punctuation.separator.scope-resolution.cpp",
                     "punctuation.separator.scope-resolution.function.call.cpp",
+                    "punctuation.separator.scope-resolution.template.call.cpp",
                     "support.type.property-name",
                     "support.type.property-name.json",
                     "support.type.property-name.json punctuation",
@@ -118,6 +132,8 @@
                     "punctuation.section.block.end.bracket.curly.struct.cpp",
                     "punctuation.section.block.begin.bracket.curly.enum.cpp",
                     "punctuation.section.block.end.bracket.curly.enum.cpp",
+                    "storage.source.cmake",
+                    "meta.function.definition.cpp"
                 ],
                 "settings": {
                     "foreground": "#4effacc7"
@@ -150,6 +166,9 @@
                     "punctuation.definition.string.end.json.comments",
                     "constant.numeric.json.comments",
                     "constant.language.json.comments",
+                    "source.cmake",
+                    "variable.source.cmake",
+                    "entity.name.function.lua"
                 ],
                 "settings": {
                     "foreground": "#ffae00"
@@ -195,7 +214,12 @@
                     "variable.other.enummember",
                     "keyword.operator.logical",
                     "keyword.operator.ternary",
+                    "keyword.control.return",
+                    "keyword.control.break",
+                    "keyword.control.continue",
                     "keyword.control.throw",
+                    "keyword.control.try",
+                    "keyword.control.catch",
                     "keyword.operator.new",
                     "keyword.operator.delete",
                     "keyword.operator.delete.array",
@@ -203,8 +227,6 @@
                     "keyword.operator.and",
                     "keyword.operator.not",
                     "keyword.operator.wordlike",
-                    "keyword.control.try",
-                    "keyword.control.catch",
                     "constant.numeric",
                     "keyword.other.unit",
                     "entity.name.function.operator.cpp",
@@ -234,7 +256,7 @@
                 "scope": [
                     "variable.other.local",
                     "variable.other.readwrite",
-                    "meta.paragraph.markdown"
+                    "meta.paragraph.markdown",
                 ],
                 "settings": {
                     "foreground": "#D4D4D4"
@@ -262,7 +284,7 @@
             },
             {
                 "scope": [
-                    "constant.character.escape"
+                    "constant.character.escape",
                 ],
                 "settings": {
                     "foreground": "#D7BA7D"
@@ -313,10 +335,15 @@
                     "keyword.operator.comparison.cpp",
                     "keyword.operator.bitwise.shift",
                     "keyword.operator.bitwise.shift.cpp",
-                    "keyword.control.flow.python"
+                    "keyword.operator.increment.cpp",
+                    "keyword.control.flow.python",
+                    "keyword.cmake",
+                    "entity.other.attribute",
+                    "punctuation.section.attribute"
                 ],
                 "settings": {
-                    "foreground": "#569CD6"
+                    "foreground": "#569CD6",
+                    "fontStyle": ""
                 }
             }
         ]
@@ -330,4 +357,5 @@
     "C_Cpp.default.cppStandard": "c++17",
     "C_Cpp.default.cStandard": "c17",
     "qttools.loglevel": "error",
+    "window.zoomLevel": 1,
 }
