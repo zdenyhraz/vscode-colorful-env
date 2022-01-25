@@ -36,6 +36,8 @@ VS & VSCode dark but colorful settings. Distinguishes functions, member function
 - install CMake via https://apt.kitware.com/
 - `git config --global user.email "xxxx@xxx.com"`
 - `git config --global user.name "xxxx"`
+- `ssh-keygen -t ed25519 -C "xxxx@xxx.com"`
+- (Qt) `sudo apt-get install qt5-default`
 
 ## Visual Studio Theme
 - Install the Color Theme Editor/Designer extension
