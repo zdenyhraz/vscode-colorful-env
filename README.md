@@ -49,7 +49,7 @@ VS & VSCode dark but colorful settings. Distinguishes functions, member function
 - use `WindowsTerminal/settings.json` settings
 
 ## Windows C++ dev environment
-- install WSL 2
+- install WSL 2 via elevated powershell `wsl --install -d Ubuntu`
 - install Ubuntu via Microsoft Store
 - install vscode WSL extension
 - follow steps in `Linux C++ dev environment`
