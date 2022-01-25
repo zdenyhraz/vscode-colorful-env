@@ -32,6 +32,8 @@ VS & VSCode dark but colorful settings. Distinguishes functions, member function
 - `sudo apt -y install build-essential`
 - `sudo apt-get install gdb`
 - `sudo apt -y install clang-format`
+- `sudo apt-get install -y ninja-build`
+- install CMake via https://apt.kitware.com/
 - `git config --global user.email "xxxx@xxx.com"`
 - `git config --global user.name "xxxx"`
 
