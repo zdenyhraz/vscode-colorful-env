@@ -6,10 +6,10 @@
         //"FIRMWARE_SHAREPOINT": "${workspaceFolder}/results",
     },
     "cmake.mingwSearchDirs": [
-        "C:\\msys64\\mingw64\\bin"
+        "C:/msys64/mingw64/bin"
     ],
-    //"cmake.generator": "MinGW Makefiles", //"Ninja",
-    "cmake.parallelJobs": 6,
+    "cmake.generator": "Ninja",
+    "cmake.parallelJobs": 12,
     "cmake.configureOnOpen": false,
     "C_Cpp.enhancedColorization": "Enabled",
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
@@ -337,6 +337,8 @@
                     "keyword.operator.bitwise.shift.cpp",
                     "keyword.operator.increment.cpp",
                     "keyword.control.flow.python",
+                    "keyword.control.import.python",
+                    "keyword.control.from.python",
                     "keyword.cmake",
                     "entity.other.attribute",
                     "punctuation.section.attribute"
@@ -354,8 +356,17 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "git.confirmSync": false,
     "tabnine.experimentalAutoImports": true,
-    "C_Cpp.default.cppStandard": "c++17",
-    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "c11",
     "qttools.loglevel": "error",
+    "terminal.integrated.defaultProfile.linux": "zsh",
     "window.zoomLevel": 1,
+    "c-cpp-flylint.cppcheck.suppressions": [
+        "clarifyCalculation"
+    ],
+    "c-cpp-flylint.cppcheck.inconclusive": true,
+    "c-cpp-flylint.flawfinder.enable": false,
+    "c-cpp-flylint.flexelint.enable": false,
+    "c-cpp-flylint.lizard.enable": false,
+    "c-cpp-flylint.clang.enable": false
 }
