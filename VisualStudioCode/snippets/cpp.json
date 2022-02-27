@@ -1,5 +1,5 @@
 {
-	"For each pixel": {
+	"OpenCV For each pixel": {
 		"prefix": "foreachpixel",
 		"body": [
 			"for (i32 r = 0; r < mat.rows; ++r)",
