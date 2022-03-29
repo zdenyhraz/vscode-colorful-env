@@ -142,6 +142,9 @@
         "tab.border": "#00000000",
         "tab.activeBorder": "#00000000",
         "tab.activeBorderTop": "#00000000",
+        "peekViewEditor.background": "#0f0f0f",
+        "peekViewEditorGutter.background": "#0f0f0f",
+        "peekViewResult.background": "#0f0f0f",
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
