@@ -9,13 +9,13 @@
         "C:/msys64/mingw64/bin"
     ],
     "cmake.generator": "Ninja",
-    "cmake.parallelJobs": 12,
+    "cmake.parallelJobs": 6,
     "cmake.configureOnOpen": false,
     "C_Cpp.enhancedColorization": "Enabled",
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "git.enableSmartCommit": true,
     "git.autofetch": true,
-    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontFamily": "Cascadia Code",
     "terminal.integrated.fontSize": 14,
     "security.workspace.trust.untrustedFiles": "open",
     "explorer.confirmDelete": false,
@@ -41,7 +41,7 @@
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "editor.tabSize": 2,
-    "editor.minimap.enabled": true,
+    "editor.minimap.enabled": false,
     "editor.minimap.scale": 2,
     "editor.semanticHighlighting.enabled": true,
     "editor.semanticTokenColorCustomizations": {
@@ -142,9 +142,6 @@
         "tab.border": "#00000000",
         "tab.activeBorder": "#00000000",
         "tab.activeBorderTop": "#00000000",
-        "peekViewEditor.background": "#0f0f0f",
-        "peekViewEditorGutter.background": "#0f0f0f",
-        "peekViewResult.background": "#0f0f0f",
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -407,15 +404,19 @@
     "c-cpp-flylint.cppcheck.inconclusive": true,
     "c-cpp-flylint.cppcheck.addons": [
         "cert",
-        "threadsafety",
         "misc"
     ],
     "c-cpp-flylint.cppcheck.extraArgs": [
         "--enable=warning,style,performance,portability,information"
+    ],
+    "c-cpp-flylint.excludeFromWorkspacePaths": [
+        "libs"
     ],
     "c-cpp-flylint.flawfinder.enable": false,
     "c-cpp-flylint.flexelint.enable": false,
     "c-cpp-flylint.lizard.enable": false,
     "c-cpp-flylint.clang.enable": false,
     "gitlens.hovers.currentLine.over": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "editor.cursorBlinking": "expand",
 }
