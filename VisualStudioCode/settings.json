@@ -1,13 +1,4 @@
 {
-    "cmake.configureSettings": {
-        //"CMAKE_TOOLCHAIN_FILE": "${workspaceFolder}/toolchain-ppc-p2020.cmake",
-    },
-    "cmake.environment": {
-        //"FIRMWARE_SHAREPOINT": "${workspaceFolder}/results",
-    },
-    "cmake.mingwSearchDirs": [
-        "C:/msys64/mingw64/bin"
-    ],
     "cmake.generator": "Ninja",
     "cmake.parallelJobs": 6,
     "cmake.configureOnOpen": false,
@@ -15,34 +6,27 @@
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "git.enableSmartCommit": true,
     "git.autofetch": true,
-    "terminal.integrated.fontFamily": "Cascadia Code",
+    "editor.fontFamily": "Cascadia Code",
+    "editor.fontSize": 14,
+    "editor.fontWeight": "600",
+    "terminal.integrated.fontFamily": "Cascadia Code PL",
     "terminal.integrated.fontSize": 14,
-    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.fontWeight": 600,
     "explorer.confirmDelete": false,
-    "python.formatting.provider": "autopep8",
-    "python.formatting.autopep8Args": [
-        "--indent-size",
-        "2",
-        "--max-line-length",
-        "120",
-        "--experimental"
-    ],
-    "[cpp]": {
-        "editor.defaultFormatter": "xaver.clang-format"
-    },
     "explorer.confirmDragAndDrop": false,
     "vsicons.dontShowNewVersionMessage": true,
-    "output.smartScroll.enabled": false,
     "workbench.iconTheme": "vscode-icons",
     "editor.formatOnType": true,
     "editor.formatOnSave": true,
-    "editor.fontFamily": "Cascadia Code",
-    "editor.fontWeight": "normal",
-    "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "editor.tabSize": 2,
     "editor.minimap.enabled": false,
     "editor.minimap.scale": 2,
+    "terminal.integrated.cursorBlinking": true,
+    "editor.cursorBlinking": "expand",
+    "window.zoomLevel": 1,
+    "output.smartScroll.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
     "editor.semanticHighlighting.enabled": true,
     "editor.semanticTokenColorCustomizations": {
         "enabled": true,
@@ -417,6 +401,21 @@
     "c-cpp-flylint.lizard.enable": false,
     "c-cpp-flylint.clang.enable": false,
     "gitlens.hovers.currentLine.over": "line",
-    "terminal.integrated.cursorBlinking": true,
-    "editor.cursorBlinking": "expand",
+    "cmake.configureSettings": {
+        //"CMAKE_TOOLCHAIN_FILE": "${workspaceFolder}/toolchain-ppc-p2020.cmake",
+    },
+    "cmake.environment": {
+        //"FIRMWARE_SHAREPOINT": "${workspaceFolder}/results",
+    },
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--indent-size",
+        "2",
+        "--max-line-length",
+        "120",
+        "--experimental"
+    ],
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
 }
