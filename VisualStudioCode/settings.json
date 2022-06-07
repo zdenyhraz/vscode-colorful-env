@@ -8,10 +8,11 @@
     "git.autofetch": true,
     "editor.fontFamily": "Cascadia Code",
     "editor.fontSize": 14,
-    "editor.fontWeight": "600",
-    "terminal.integrated.fontFamily": "Cascadia Code PL",
+    "editor.fontWeight": "normal",
+    "editor.bracketPairColorization.enabled": false,
+    "terminal.integrated.fontFamily": "Cascadia Code",
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontWeight": 600,
+    "terminal.integrated.fontWeight": "normal",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "vsicons.dontShowNewVersionMessage": true,
@@ -24,7 +25,6 @@
     "editor.minimap.scale": 2,
     "terminal.integrated.cursorBlinking": true,
     "editor.cursorBlinking": "expand",
-    "window.zoomLevel": 1,
     "output.smartScroll.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
     "editor.semanticHighlighting.enabled": true,
@@ -349,6 +349,8 @@
                     "punctuation.definition.end.bracket.square",
                     "punctuation.separator.colon.range-based.cpp",
                     "punctuation.separator.colon.inheritance",
+                    "punctuation.section.block.begin.bracket.curly.cpp",
+                    "punctuation.section.block.end.bracket.curly.cpp",
                     "markup.underline",
                     "variable.language",
                     "meta.template.call.cpp",
@@ -379,7 +381,6 @@
     "tabnine.experimentalAutoImports": true,
     "C_Cpp.default.cppStandard": "c++20",
     "C_Cpp.default.cStandard": "c11",
-    "qttools.loglevel": "error",
     "terminal.integrated.defaultProfile.linux": "zsh",
     "c-cpp-flylint.cppcheck.suppressions": [
         "syntaxError",
@@ -400,7 +401,6 @@
     "c-cpp-flylint.flexelint.enable": false,
     "c-cpp-flylint.lizard.enable": false,
     "c-cpp-flylint.clang.enable": false,
-    "gitlens.hovers.currentLine.over": "line",
     "cmake.configureSettings": {
         //"CMAKE_TOOLCHAIN_FILE": "${workspaceFolder}/toolchain-ppc-p2020.cmake",
     },
@@ -410,10 +410,9 @@
     "python.formatting.provider": "autopep8",
     "python.formatting.autopep8Args": [
         "--indent-size",
-        "2",
+        "4",
         "--max-line-length",
-        "120",
-        "--experimental"
+        "120"
     ],
     "[cpp]": {
         "editor.defaultFormatter": "xaver.clang-format"
