@@ -1,12 +1,12 @@
 {
-    "C_Cpp.autoAddFileAssociations": false,
-    "C_Cpp.default.cStandard": "c11",
-    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-    "C_Cpp.default.cppStandard": "c++20",
-    "C_Cpp.enhancedColorization": "Enabled",
     "[cpp]": {
         "editor.defaultFormatter": "xaver.clang-format"
     },
+    "C_Cpp.autoAddFileAssociations": false,
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.enhancedColorization": "Enabled",
     "c-cpp-flylint.clang.enable": false,
     "c-cpp-flylint.cppcheck.addons": [
         "cert",
@@ -55,7 +55,7 @@
                 "foreground": "#4effacc7"
             },
             "enumMember": {
-                "foreground": "#fe4450"
+                "foreground": "#fe4450f1"
             },
             "function": {
                 "foreground": "#ff8119"
@@ -223,7 +223,7 @@
                     "entity.name.function.operator.cpp"
                 ],
                 "settings": {
-                    "foreground": "#fe4450"
+                    "foreground": "#fe4450f1"
                 }
             },
             {
