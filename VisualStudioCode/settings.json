@@ -8,7 +8,7 @@
     "git.autofetch": true,
     "editor.fontFamily": "Cascadia Code",
     "editor.fontSize": 14,
-    "editor.fontWeight": "normal",
+    "editor.fontWeight": 600,
     "editor.bracketPairColorization.enabled": false,
     "terminal.integrated.fontFamily": "Cascadia Code",
     "terminal.integrated.fontSize": 14,
@@ -25,9 +25,56 @@
     "editor.minimap.scale": 2,
     "terminal.integrated.cursorBlinking": true,
     "editor.cursorBlinking": "expand",
+    "window.zoomLevel": 1,
     "output.smartScroll.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
     "editor.semanticHighlighting.enabled": true,
+    "clang-format.assumeFilename": ".clang-format",
+    "clang-format.language.apex.enable": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.confirmSync": false,
+    "tabnine.experimentalAutoImports": true,
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.autoAddFileAssociations": false,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "c-cpp-flylint.cppcheck.inconclusive": true,
+    "c-cpp-flylint.flawfinder.enable": false,
+    "c-cpp-flylint.flexelint.enable": false,
+    "c-cpp-flylint.lizard.enable": false,
+    "c-cpp-flylint.clang.enable": false,
+    "c-cpp-flylint.excludeFromWorkspacePaths": [
+        "libs"
+    ],
+    "c-cpp-flylint.cppcheck.addons": [
+        "cert",
+        "misc"
+    ],
+    "c-cpp-flylint.cppcheck.extraArgs": [
+        "--enable=warning,style,performance,portability,information"
+    ],
+    "c-cpp-flylint.cppcheck.suppressions": [
+        "noExplicitConstructor",
+        "misc-implicitlyVirtual"
+    ],
+    "cmake.configureSettings": {
+        //"CMAKE_TOOLCHAIN_FILE": "${workspaceFolder}/toolchain-ppc-p2020.cmake",
+    },
+    "cmake.environment": {
+        //"FIRMWARE_SHAREPOINT": "${workspaceFolder}/results",
+    },
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--indent-size",
+        "4",
+        "--max-line-length",
+        "120"
+    ],
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "jupyter.askForKernelRestart": false,
+    "workbench.colorTheme": "Discord Theme",
     "editor.semanticTokenColorCustomizations": {
         "enabled": true,
         "rules": {
@@ -65,7 +112,8 @@
                 "foreground": "#ff8119"
             },
             "parameter": {
-                "foreground": "#ffffff60"
+                "foreground": "#ffffff60",
+                "fontStyle": "italic"
             },
             "property": {
                 "foreground": "#c548ff"
@@ -278,6 +326,7 @@
                     "variable.other.local",
                     "variable.other.readwrite",
                     "meta.paragraph.markdown",
+                    "meta.body.function.definition.cpp",
                 ],
                 "settings": {
                     "foreground": "#D4D4D4"
@@ -372,49 +421,5 @@
                 }
             }
         ]
-    },
-    "workbench.colorTheme": "Discord Theme",
-    "clang-format.assumeFilename": ".clang-format",
-    "clang-format.language.apex.enable": false,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "git.confirmSync": false,
-    "tabnine.experimentalAutoImports": true,
-    "C_Cpp.default.cppStandard": "c++20",
-    "C_Cpp.default.cStandard": "c11",
-    "terminal.integrated.defaultProfile.linux": "zsh",
-    "c-cpp-flylint.cppcheck.suppressions": [
-        "syntaxError",
-        "misc-implicitlyVirtual"
-    ],
-    "c-cpp-flylint.cppcheck.inconclusive": true,
-    "c-cpp-flylint.cppcheck.addons": [
-        "cert",
-        "misc"
-    ],
-    "c-cpp-flylint.cppcheck.extraArgs": [
-        "--enable=warning,style,performance,portability,information"
-    ],
-    "c-cpp-flylint.excludeFromWorkspacePaths": [
-        "libs"
-    ],
-    "c-cpp-flylint.flawfinder.enable": false,
-    "c-cpp-flylint.flexelint.enable": false,
-    "c-cpp-flylint.lizard.enable": false,
-    "c-cpp-flylint.clang.enable": false,
-    "cmake.configureSettings": {
-        //"CMAKE_TOOLCHAIN_FILE": "${workspaceFolder}/toolchain-ppc-p2020.cmake",
-    },
-    "cmake.environment": {
-        //"FIRMWARE_SHAREPOINT": "${workspaceFolder}/results",
-    },
-    "python.formatting.provider": "autopep8",
-    "python.formatting.autopep8Args": [
-        "--indent-size",
-        "4",
-        "--max-line-length",
-        "120"
-    ],
-    "[cpp]": {
-        "editor.defaultFormatter": "xaver.clang-format"
     },
 }
