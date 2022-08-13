@@ -113,7 +113,6 @@
             },
             "parameter": {
                 "foreground": "#ffffff60",
-                "fontStyle": "italic"
             },
             "property": {
                 "foreground": "#c548ff"
