@@ -40,6 +40,7 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.bracketPairColorization.enabled": false,
     "editor.cursorBlinking": "expand",
+    "editor.experimental.stickyScroll.enabled": true,
     "editor.fontFamily": "Cascadia Code",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
