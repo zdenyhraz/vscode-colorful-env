@@ -367,7 +367,6 @@
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontWeight": 600,
     "vsicons.dontShowNewVersionMessage": true,
-    "window.zoomLevel": 1,
     "workbench.colorCustomizations": {
         "activityBar.background": "#0f0f0f",
         "activityBar.foreground": "#ffffff",
