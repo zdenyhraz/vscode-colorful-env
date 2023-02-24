@@ -6,10 +6,10 @@
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "C_Cpp.default.cppStandard": "c++20",
     "C_Cpp.default.cStandard": "c11",
-    "C_Cpp.enhancedColorization": "Enabled",
+    "C_Cpp.enhancedColorization": "enabled",
+    "c-cpp-flylint.cppcheck.enable": false,
     "c-cpp-flylint.clang.enable": false,
     "c-cpp-flylint.cppcheck.addons": [
-        "cert",
         "misc"
     ],
     "c-cpp-flylint.cppcheck.extraArgs": [
@@ -29,25 +29,20 @@
     "clang-format.assumeFilename": ".clang-format",
     "clang-format.language.apex.enable": false,
     "cmake.configureOnOpen": false,
-    "cmake.configureSettings": {
-        //"CMAKE_TOOLCHAIN_FILE": "${workspaceFolder}/toolchain-ppc-p2020.cmake",
-    },
-    "cmake.environment": {
-        //"FIRMWARE_SHAREPOINT": "${workspaceFolder}/results",
-    },
-    "cmake.generator": "Ninja",
+    "cmake.configureSettings": {},
+    "cmake.environment": {},
+    //"cmake.generator": "Ninja",
     "cmake.parallelJobs": 0,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.bracketPairColorization.enabled": false,
     "editor.cursorBlinking": "expand",
-    "editor.experimental.stickyScroll.enabled": true,
+    "editor.tabSize": 2,
     "editor.fontFamily": "Cascadia Code",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
     "editor.fontWeight": 600,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.minimap.enabled": false,
     "editor.semanticHighlighting.enabled": true,
     "editor.semanticTokenColorCustomizations": {
         "enabled": true,
@@ -97,7 +92,6 @@
             }
         }
     },
-    "editor.tabSize": 2,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -356,7 +350,7 @@
         "--indent-size",
         "4",
         "--max-line-length",
-        "120"
+        "180"
     ],
     "python.formatting.provider": "autopep8",
     "security.workspace.trust.untrustedFiles": "open",
@@ -367,6 +361,7 @@
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontWeight": 600,
     "vsicons.dontShowNewVersionMessage": true,
+    "window.zoomLevel": 1,
     "workbench.colorCustomizations": {
         "activityBar.background": "#0f0f0f",
         "activityBar.foreground": "#ffffff",
@@ -418,6 +413,12 @@
         "titleBar.inactiveBackground": "#0f0f0f",
         "titleBar.inactiveForeground": "#d1d1d1"
     },
-    "workbench.colorTheme": "Discord Theme",
-    "workbench.iconTheme": "vscode-icons"
+    "workbench.colorTheme": "Material Dark Theme",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.stickyScroll.enabled": true,
+    "editor.minimap.enabled": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "[python]": {
+        "editor.formatOnType": true
+    }
 }
