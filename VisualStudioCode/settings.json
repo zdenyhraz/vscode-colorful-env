@@ -413,12 +413,12 @@
         "titleBar.inactiveBackground": "#0f0f0f",
         "titleBar.inactiveForeground": "#d1d1d1"
     },
-    "workbench.colorTheme": "Material Dark Theme",
     "workbench.iconTheme": "vscode-icons",
     "editor.stickyScroll.enabled": true,
     "editor.minimap.enabled": false,
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "[python]": {
         "editor.formatOnType": true
-    }
+    },
+    "workbench.colorTheme": "Discord Theme"
 }
