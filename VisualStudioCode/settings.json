@@ -405,7 +405,8 @@
     "editor.minimap.enabled": false,
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "[python]": {
-        "editor.formatOnType": true
+        "editor.formatOnSave": false,
+        "editor.formatOnType": false
     },
     "workbench.colorTheme": "Discord Theme",
     "window.zoomLevel": 1,
