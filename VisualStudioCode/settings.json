@@ -28,7 +28,7 @@
     "editor.fontFamily": "Cascadia Code",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
-    "editor.fontWeight": 600,
+    //"editor.fontWeight": 400,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.semanticHighlighting.enabled": true,
@@ -42,7 +42,8 @@
                 "foreground": "#fe4450f1"
             },
             "function": {
-                "foreground": "#ff8119"
+                "foreground": "#ffae00"
+                //"foreground": "#ff8119"
             },
             "macro": {
                 "fontStyle": "italic",
@@ -61,7 +62,8 @@
                 "foreground": "#4effacc7"
             },
             "operatorOverload": {
-                "foreground": "#ff8119"
+                "foreground": "#ffae00"
+                //"foreground": "#ff8119"
             },
             "parameter": {
                 "foreground": "#ffffff60"
@@ -76,7 +78,9 @@
                 "foreground": "#4effacc7"
             },
             "variable": {
-                "foreground": "#D4D4D4"
+                "foreground": "#e5f676b7"
+                //"foreground": "#c548ff"
+                //"foreground": "#D4D4D4"
             }
         }
     },
@@ -98,7 +102,6 @@
                     "support.type.property-name",
                     "support.type.property-name.json",
                     "support.type.property-name.json punctuation",
-                    "keyword.control.directive",
                     "markup.heading",
                     "punctuation.section.block.begin.bracket.curly.class.cpp",
                     "punctuation.section.block.end.bracket.curly.class.cpp",
@@ -107,7 +110,7 @@
                     "punctuation.section.block.begin.bracket.curly.enum.cpp",
                     "punctuation.section.block.end.bracket.curly.enum.cpp",
                     "storage.source.cmake",
-                    "meta.function.definition.cpp"
+                    "meta.function.definition.cpp",
                 ],
                 "settings": {
                     "foreground": "#4effacc7"
@@ -159,7 +162,8 @@
                     "punctuation.section.arguments.end.bracket.round.function.call.cpp"
                 ],
                 "settings": {
-                    "foreground": "#ff8119"
+                    "foreground": "#ffae00"
+                    //"foreground": "#ff8119"
                 }
             },
             {
@@ -167,7 +171,7 @@
                     "entity.name.function.preprocessor",
                     "entity.other.attribute-name.pragma.preprocessor.cpp",
                     "punctuation.definition.parameters.begin.preprocessor.cpp",
-                    "punctuation.definition.parameters.end.preprocessor.cpp"
+                    "punctuation.definition.parameters.end.preprocessor.cpp",
                 ],
                 "settings": {
                     "fontStyle": "italic",
@@ -203,7 +207,7 @@
                     "keyword.operator.wordlike",
                     "constant.numeric",
                     "keyword.other.unit",
-                    "entity.name.function.operator.cpp"
+                    "entity.name.function.operator.cpp",
                 ],
                 "settings": {
                     "foreground": "#fe4450f1"
@@ -220,7 +224,7 @@
             },
             {
                 "scope": [
-                    "storage.type.class.doxygen"
+                    "storage.type.class.doxygen",
                 ],
                 "settings": {
                     "foreground": "#00ec0c"
@@ -241,7 +245,8 @@
                 "scope": [
                     "variable.other.property",
                     "punctuation.section.arguments.begin.bracket.round.function.call.initializer.cpp",
-                    "punctuation.section.arguments.end.bracket.round.function.call.initializer.cpp"
+                    "punctuation.section.arguments.end.bracket.round.function.call.initializer.cpp",
+                    "meta.member.access"
                 ],
                 "settings": {
                     "foreground": "#c548ff"
@@ -275,9 +280,6 @@
                     "keyword.operator.arithmetic",
                     "keyword.operator.arithmetic.cpp",
                     "keyword.operator",
-                    "keyword.control.directive.include",
-                    "keyword.control.directive.define.cpp",
-                    "keyword.control.directive.pragma.cpp",
                     "keyword.other",
                     "constant.language",
                     "storage.type",
@@ -318,7 +320,9 @@
                     "keyword.control.from.python",
                     "keyword.cmake",
                     "entity.other.attribute",
-                    "punctuation.section.attribute"
+                    "punctuation.section.attribute",
+                    "keyword.operator.logical.python",
+                    "keyword.control.directive",
                 ],
                 "settings": {
                     "fontStyle": "",
@@ -392,13 +396,13 @@
         "tab.hoverBackground": "#282828",
         "tab.inactiveBackground": "#0f0f0f",
         "tab.inactiveForeground": "#868686",
-        "terminal.ansiBlue": "#0077ff",
-        "terminal.ansiGreen": "#5eb140",
-        "terminal.ansiYellow": "#fac13b",
         "titleBar.activeBackground": "#0f0f0f",
         "titleBar.activeForeground": "#d1d1d1",
         "titleBar.inactiveBackground": "#0f0f0f",
-        "titleBar.inactiveForeground": "#d1d1d1"
+        "titleBar.inactiveForeground": "#d1d1d1",
+        "terminal.ansiBlue": "#0077ff",
+        "terminal.ansiGreen": "#5eb140",
+        "terminal.ansiYellow": "#fac13b",
     },
     "workbench.iconTheme": "vscode-icons",
     "editor.stickyScroll.enabled": true,
@@ -408,7 +412,6 @@
         "editor.formatOnSave": false,
         "editor.formatOnType": false
     },
-    "workbench.colorTheme": "Discord Theme",
     "window.zoomLevel": 1,
     "c-cpp-flylint.cppcheck.enable": false,
     "c-cpp-flylint.clang.enable": false,
@@ -429,4 +432,5 @@
     "c-cpp-flylint.flawfinder.enable": false,
     "c-cpp-flylint.flexelint.enable": false,
     "c-cpp-flylint.lizard.enable": false,
+    "workbench.colorTheme": "Discord Theme",
 }
