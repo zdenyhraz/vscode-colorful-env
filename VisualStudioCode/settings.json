@@ -31,6 +31,7 @@
     //"editor.fontWeight": 400,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.autopep8",
     "editor.semanticHighlighting.enabled": true,
     "editor.semanticTokenColorCustomizations": {
         "enabled": true,
@@ -81,7 +82,10 @@
                 "foreground": "#e5f676b7"
                 //"foreground": "#c548ff"
                 //"foreground": "#D4D4D4"
-            }
+            },
+            "selfParameter": {
+                // "foreground": "#569CD6"
+            },
         }
     },
     "editor.tokenColorCustomizations": {
@@ -111,6 +115,7 @@
                     "punctuation.section.block.end.bracket.curly.enum.cpp",
                     "storage.source.cmake",
                     "meta.function.definition.cpp",
+                    "entity.name.tag"
                 ],
                 "settings": {
                     "foreground": "#4effacc7"
@@ -156,10 +161,13 @@
                     "entity.name.function",
                     "entity.name.function.member.static",
                     "entity.name.function.operator",
+                    "entity.name.function.call",
                     "variable.other.property.static",
                     "variable.other.global",
                     "punctuation.section.arguments.begin.bracket.round.function.call.cpp",
-                    "punctuation.section.arguments.end.bracket.round.function.call.cpp"
+                    "punctuation.section.arguments.end.bracket.round.function.call.cpp",
+                    "meta.function-call",
+                    "meta.function-call.generic.python",
                 ],
                 "settings": {
                     "foreground": "#ffae00"
@@ -232,21 +240,23 @@
             },
             {
                 "scope": [
-                    "variable.other.local",
-                    "variable.other.readwrite",
+                    "variable.other.object.access",
                     "meta.paragraph.markdown",
-                    "meta.body.function.definition.cpp"
+                    "meta.body.function.definition.cpp",
+                    "variable"
                 ],
                 "settings": {
-                    "foreground": "#D4D4D4"
+                    //"foreground": "#D4D4D4"
+                    "foreground": "#e5f676b7"
                 }
             },
             {
                 "scope": [
                     "variable.other.property",
+                    "variable.other.object.property",
                     "punctuation.section.arguments.begin.bracket.round.function.call.initializer.cpp",
                     "punctuation.section.arguments.end.bracket.round.function.call.initializer.cpp",
-                    "meta.member.access"
+                    "meta.member.access",
                 ],
                 "settings": {
                     "foreground": "#c548ff"
@@ -338,13 +348,12 @@
     "git.enableSmartCommit": true,
     "jupyter.askForKernelRestart": false,
     "output.smartScroll.enabled": false,
-    "python.formatting.autopep8Args": [
+    "autopep8.args": [
         "--indent-size",
         "4",
         "--max-line-length",
         "180"
     ],
-    "python.formatting.provider": "autopep8",
     "security.workspace.trust.untrustedFiles": "open",
     "tabnine.experimentalAutoImports": true,
     "terminal.integrated.cursorBlinking": true,
@@ -375,7 +384,7 @@
         "editorLineNumber.foreground": "#868686",
         "menu.background": "#282828",
         "menu.foreground": "#d1d1d1",
-        "panel.background": "#0f0f0f",
+        "panel.background": "#202020",
         "panel.border": "#3b3b3b",
         "sideBar.background": "#0f0f0f",
         "sideBar.foreground": "#d1d1d1",
@@ -407,12 +416,13 @@
     "workbench.iconTheme": "vscode-icons",
     "editor.stickyScroll.enabled": true,
     "editor.minimap.enabled": false,
-    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "auto",
     "[python]": {
-        "editor.formatOnSave": false,
-        "editor.formatOnType": false
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "ms-python.autopep8"
     },
-    "window.zoomLevel": 1,
     "c-cpp-flylint.cppcheck.enable": false,
     "c-cpp-flylint.clang.enable": false,
     "c-cpp-flylint.cppcheck.addons": [
@@ -433,4 +443,19 @@
     "c-cpp-flylint.flexelint.enable": false,
     "c-cpp-flylint.lizard.enable": false,
     "workbench.colorTheme": "Discord Theme",
+    "python.createEnvironment.trigger": "off",
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.showOptionsMovedNotification": false,
+    "window.zoomLevel": 1,
+    "explorer.confirmPasteNative": false,
+    "window.titleBarStyle": "custom",
+    "symbols.hidesExplorerArrows": false,
+    "hediet.vscode-drawio.resizeImages": null,
+    "cSpell.enableFiletypes": [
+        "!hpp",
+        "!cpp",
+        "!py",
+        "!cs"
+    ],
+    "vscode_vibrancy.theme": "Default Light",
 }
