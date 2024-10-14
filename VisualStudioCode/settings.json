@@ -30,7 +30,7 @@
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
     "editor.lineNumbers": "on",
-    //"editor.fontWeight": 400,
+    //"editor.fontWeight": 600,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.defaultFormatter": "ms-python.autopep8",
@@ -46,7 +46,6 @@
             },
             "function": {
                 "foreground": "#ffae00"
-                //"foreground": "#ff8119"
             },
             "macro": {
                 "fontStyle": "italic",
@@ -80,12 +79,7 @@
                 "foreground": "#4effacc7"
             },
             "variable": {
-                "foreground": "#e5f676b7"
-                //"foreground": "#a4ffe7aa"
-                //"foreground": "#D4D4D4"
-            },
-            "selfParameter": {
-                // "foreground": "#569CD6"
+                "foreground": "#afbe51"
             },
         }
     },
@@ -180,6 +174,7 @@
                     "entity.other.attribute-name.pragma.preprocessor.cpp",
                     "punctuation.definition.parameters.begin.preprocessor.cpp",
                     "punctuation.definition.parameters.end.preprocessor.cpp",
+                    "keyword.control.directive",
                 ],
                 "settings": {
                     "fontStyle": "italic",
@@ -243,8 +238,7 @@
                     "variable"
                 ],
                 "settings": {
-                    "foreground": "#e5f676b7"
-                    //"foreground": "#D4D4D4"
+                    "foreground": "#afbe51"
                 }
             },
             {
