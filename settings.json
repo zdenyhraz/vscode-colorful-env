@@ -366,6 +366,7 @@
     "terminal.integrated.fontWeight": "bold",
     "vsicons.dontShowNewVersionMessage": true,
     "editor.stickyScroll.enabled": true,
+    "terminal.integrated.stickyScroll.enabled": false,
     "terminal.integrated.enableMultiLinePasteWarning": "auto",
     "[python]": {
         "editor.formatOnSave": true,
@@ -399,7 +400,7 @@
     "workbench.settings.applyToAllProfiles": [
         "workbench.colorCustomizations"
     ],
-    "glassit.alpha": 240,
+    "glassit.alpha": 230,
     "[cpp]": {
         "editor.defaultFormatter": "xaver.clang-format"
     },
