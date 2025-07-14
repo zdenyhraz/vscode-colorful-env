@@ -45,6 +45,9 @@
             "variable": {
                 "foreground": "#afbe51"
             },
+            "builtinConstant": {
+                "foreground": "#569CD6"
+            },
         }
     },
     "editor.tokenColorCustomizations": {
@@ -279,11 +282,13 @@
                     "keyword.operator.bitwise.shift",
                     "keyword.operator.bitwise.shift.cpp",
                     "keyword.operator.increment.cpp",
+                    "constant.language",
                     "keyword.cmake",
                     "entity.other.attribute",
                     "punctuation.section.attribute",
                     "keyword.control.import.python",
                     "keyword.operator.logical.python",
+                    "keyword.cs"
                 ],
                 "settings": {
                     "fontStyle": "",
@@ -358,26 +363,26 @@
         "180"
     ],
     "security.workspace.trust.untrustedFiles": "open",
-    "tabnine.experimentalAutoImports": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.fontFamily": "CaskaydiaCove NF",
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 15,
     "terminal.integrated.fontWeight": "bold",
     "vsicons.dontShowNewVersionMessage": true,
     "editor.stickyScroll.enabled": true,
     "terminal.integrated.stickyScroll.enabled": false,
     "terminal.integrated.enableMultiLinePasteWarning": "auto",
+    "[cpp]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
     "[python]": {
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true,
         "editor.tabSize": 4,
         "editor.defaultFormatter": "ms-python.autopep8"
     },
     "workbench.colorTheme": "Discord Theme",
     "python.createEnvironment.trigger": "off",
     "cmake.options.statusBarVisibility": "visible",
-    "cmake.showOptionsMovedNotification": false,
     "window.zoomLevel": 1,
     "explorer.confirmPasteNative": false,
     "window.titleBarStyle": "custom",
@@ -388,7 +393,6 @@
     "git.replaceTagsWhenPull": true,
     "interactiveWindow.executeWithShiftEnter": true,
     "workbench.sideBar.location": "right",
-    "workbench.startupEditor": "none",
     "workbench.activityBar.location": "top",
     "terminal.integrated.defaultProfile.windows": "PowerShell",
     "editor.minimap.enabled": false,
@@ -400,18 +404,14 @@
     "workbench.settings.applyToAllProfiles": [
         "workbench.colorCustomizations"
     ],
-    "glassit.alpha": 230,
-    "[cpp]": {
-        "editor.defaultFormatter": "xaver.clang-format"
-    },
+    "glassit.alpha": 255,
     "C_Cpp.autoAddFileAssociations": false,
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-    "C_Cpp.default.cppStandard": "c++20",
-    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.cppStandard": "c++23",
     "C_Cpp.enhancedColorization": "enabled",
     "C_Cpp.inlayHints.autoDeclarationTypes.enabled": false,
     "C_Cpp.inlayHints.parameterNames.enabled": true,
-    "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": true,
+    "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": false,
     "C_Cpp.inlayHints.parameterNames.hideLeadingUnderscores": true,
     "C_Cpp.inlayHints.referenceOperator.enabled": true,
     "C_Cpp.inlayHints.referenceOperator.showSpace": false,
@@ -425,20 +425,41 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.bracketPairColorization.enabled": false,
     "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "line",
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.guides.indentation": false,
     "editor.tabSize": 2,
-    "editor.fontFamily": "CaskaydiaCove NF, Miracode Regular",
+    "editor.fontFamily": "CaskaydiaCove NF",
     "editor.fontLigatures": true,
-    "editor.fontSize": 14,
+    "editor.fontSize": 15,
+    "editor.fontWeight": "500",
     "editor.lineNumbers": "on",
-    "editor.fontWeight": "normal",
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
+    "editor.wordWrap": "off",
     "editor.defaultFormatter": "ms-python.autopep8",
     "editor.semanticHighlighting.enabled": true,
     "cmake.pinnedCommands": [
-        "workbench.action.tasks.configureTaskRunner",
-        "workbench.action.tasks.runTask"
+        "workbench.action.tasks.runTask",
+        "workbench.action.tasks.configureTaskRunner"
     ],
     "terminal.integrated.minimumContrastRatio": 1,
+    "githubPullRequests.createOnPublishBranch": "never",
+    "python.analysis.inlayHints.callArgumentNames": "all",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "remote.defaultExtensionsIfInstalledLocally": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "GitHub.vscode-pull-request-github"
+    ],
+    "autoHide.autoHideAuxiliaryBar": false,
+    "autoHide.autoHideReferences": false,
+    "autoHide.autoHideSideBar": false,
+    "autoHide.panelDelay": 0,
+    "autoHide.sideBarDelay": 0,
+    "discord.detailsDebugging": "Debugging {file_name} in {git_repo_name}@{git_branch}",
+    "discord.detailsEditing": "Editing {file_name} in {git_repo_name}@{git_branch}",
 }
