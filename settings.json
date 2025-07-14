@@ -460,6 +460,9 @@
     "autoHide.autoHideSideBar": false,
     "autoHide.panelDelay": 0,
     "autoHide.sideBarDelay": 0,
-    "discord.detailsDebugging": "Debugging {file_name} in {git_repo_name}@{git_branch}",
-    "discord.detailsEditing": "Editing {file_name} in {git_repo_name}@{git_branch}",
+    "discord.detailsDebugging": "Debugging {file_name} in {full_dir_name}{dir_name}",
+    "discord.detailsEditing": "Editing {file_name} in {full_dir_name}{dir_name}",
+    "discord.detailsIdling": "Chillin",
+    "discord.lowerDetailsEditing": "Workspace: {git_repo_name}@{git_branch}",
+    "discord.lowerDetailsDebugging": "Debugging: {git_repo_name}@{git_branch}",
 }
