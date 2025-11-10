@@ -330,7 +330,6 @@
         "editor.defaultFormatter": "ms-python.autopep8"
     },
     "python.createEnvironment.trigger": "off",
-    "cmake.options.statusBarVisibility": "visible",
     "window.zoomLevel": 1.5,
     "explorer.confirmPasteNative": false,
     "window.title": " ",
@@ -426,19 +425,37 @@
     "prettier.semi": false,
     "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
     "vscode_vibrancy.opacity": -1,
-    "workbench.activityBar.location":"bottom",
+    "workbench.activityBar.location": "top",
     "workbench.statusBar.visible": true,
-    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.showTabs": "single",
     "breadcrumbs.enabled": false,
     "workbench.sideBar.location": "right",
     "vsicons.presets.hideExplorerArrows":true,
     "workbench.tree.indent": 8,
     "explorer.compactFolders": false,
     "explorer.decorations.badges": false,
+    "explorer.decorations.colors": false,
     "git.decorations.enabled": false,
     "window.titleBarStyle": "custom",
-    "custom-ui-style.electron": {
-        "titleBarStyle": "hiddenInset"
+    "custom-ui-style.electron": {"titleBarStyle": "hiddenInset"},
+    "custom-ui-style.font.sansSerif": "CaskaydiaCove NF",
+    "custom-ui-style.background.opacity": 0.5,
+    "cmake.options.statusBarVisibility": "icon",
+    "cmake.options.advanced": {
+        "launchTarget": {"statusBarVisibility": "compact"},
+        "cpack": {"statusBarVisibility": "hidden"},
+        "workflow": {"statusBarVisibility": "hidden"},
+        "buildTa;rget": {"statusBarVisibility": "hidden"}
     },
-    "custom-ui-style.font.sansSerif": "CaskaydiaCove NF"
+    "workbench.layoutControl.enabled": false,
+    "cmake.ctestDefaultArgs": [
+        "--output-on-failure"
+    ],
+    "cmake.ctest.testExplorerIntegrationEnabled": false,
+    "cmake.ctest.parallelJobs": 1,
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "scm.diffDecorations": "none",
+    "files.trimTrailingWhitespace": true,
+    "workbench.editor.highlightModifiedTabs": false,
 }
