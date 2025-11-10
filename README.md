@@ -4,7 +4,6 @@
 - Install vscode theme [**Aura Spirit Dracula Theme (soft)**](https://marketplace.visualstudio.com/items?itemName=JoseMurilloc.aura-spirit-dracula)
 - Install [**CaskaydiaCove Nerd Font**](https://www.nerdfonts.com/font-downloads)
 - Update (merge) your `settings.json` with [`settings.json`](settings.json)
-- Terminal:  [**oh-my-posh**](https://github.com/JanDeDobbeleer/oh-my-posh) with [custom profile](nordcustom_v.2.omp.json)
-
+- Terminal:  [**oh-my-posh**](https://github.com/JanDeDobbeleer/oh-my-posh) with [marcduiker](https://ohmyposh.dev/docs/themes#marcduiker) profile
 <img src="vscode.png" width="100%">
 
