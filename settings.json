@@ -62,6 +62,7 @@
                     "entity.name.scope-resolution.function.call.cpp",
                     "entity.name.scope-resolution.parameter.cpp",
                     "entity.name.scope-resolution.function.definition.cpp",
+                    "punctuation.separator",
                     "punctuation.separator.scope-resolution.cpp",
                     "punctuation.separator.scope-resolution.function.call.cpp",
                     "punctuation.separator.scope-resolution.template.call.cpp",
@@ -297,6 +298,10 @@
             }
         ]
     },
+    "workbench.colorCustomizations": {
+        "editorInlayHint.background": "#00000000",
+        "editorInlayHint.parameterForeground": "#ffffff60"
+    },
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "git.autofetch": true,
@@ -330,6 +335,7 @@
     },
     "python.createEnvironment.trigger": "off",
     "window.zoomLevel": 1.5,
+    "editor.mouseWheelZoom": true,
     "explorer.confirmPasteNative": false,
     "window.title": " ",
     "window.menuBarVisibility": "compact",
@@ -407,8 +413,6 @@
     "discord.lowerDetailsEditing": "Workspace: {git_repo_name}@{git_branch}",
     "discord.lowerDetailsDebugging": "Debugging: {git_repo_name}@{git_branch}",
     "supermaven.otherWarning": false,
-    "prettier.printWidth": 160,
-    "prettier.semi": false,
     "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
     "workbench.activityBar.location": "top",
     "workbench.statusBar.visible": true,
