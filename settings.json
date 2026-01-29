@@ -300,7 +300,12 @@
     },
     "workbench.colorCustomizations": {
         "editorInlayHint.background": "#00000000",
-        "editorInlayHint.parameterForeground": "#ffffff60"
+        "editorInlayHint.parameterForeground": "#ffffff60",
+        "editorOverviewRuler.warningForeground": "#00000000",
+        "editorOverviewRuler.errorForeground": "#00000000",
+        "editorOverviewRuler.infoForeground": "#00000000",
+        "editorOverviewRuler.border": "#00000000",
+        "editorOverviewRuler.background": "#00000000"
     },
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
@@ -348,7 +353,6 @@
     "editor.renderControlCharacters": false,
     "terminal.integrated.tabs.defaultIcon": "terminal-powershell",
     "workbench.iconTheme": "vscode-icons",
-    "window.commandCenter": false,
     "workbench.settings.applyToAllProfiles": [],
     "C_Cpp.autoAddFileAssociations": false,
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
@@ -362,7 +366,6 @@
     "C_Cpp.inlayHints.referenceOperator.showSpace": false,
     "C_Cpp.codeAnalysis.clangTidy.enabled": true,
     "C_Cpp.codeAnalysis.runAutomatically": true,
-    "C_Cpp.errorSquiggles": "enabled",
     "C_Cpp.intelliSenseEngine": "default",
     "cmake.configureOnOpen": false,
     "cmake.configureSettings": {},
@@ -431,12 +434,12 @@
     "custom-ui-style.background.opacity": 0.5,
     "cmake.options.statusBarVisibility": "icon",
     "cmake.options.advanced": {
-        "launchTarget": {"statusBarVisibility": "compact"},
+        "launchTarget": {"statusBarVisibility": "visible"},
         "cpack": {"statusBarVisibility": "hidden"},
         "workflow": {"statusBarVisibility": "hidden"},
-        "buildTa;rget": {"statusBarVisibility": "hidden"}
+        "buildTarget": {"statusBarVisibility": "compact"}
     },
-    "workbench.layoutControl.enabled": false,
+    "workbench.layoutControl.enabled": true,
     "cmake.ctestDefaultArgs": [
         "--output-on-failure"
     ],
@@ -447,4 +450,24 @@
     "scm.diffDecorations": "none",
     "files.trimTrailingWhitespace": true,
     "workbench.editor.highlightModifiedTabs": false,
+    "python.defaultInterpreterPath": "c:\\Users\\Zdeny\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C_Cpp.configurationWarnings": "disabled",
+    "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
+        "modernize-use-trailing-return-type",
+        "readability-uppercase-literal-suffix",
+        "hicpp-braces-around-statements"
+    ],
+    "C_Cpp.codeAnalysis.clangTidy.checks.enabled": [
+        "bugprone-*",
+        "cppcoreguidelines-*",
+        "modernize-*",
+        "performance-*",
+        "clang-analyzer-*",
+        "readability-*",
+        "portability-*",
+        "hicpp-*"
+    ],
+    "chat.viewSessions.orientation": "stacked",
+    "chat.tools.terminal.outputLocation": "chat",
+    "editor.formatOnSaveMode": "modifications",
 }
